@@ -15,7 +15,7 @@ body {
 .gridContainer{
     display: grid;
     grid-template-columns: 300px auto 300px;
-    grid-template-rows: 100px 300px auto 100px;
+    grid-template-rows: 100px 340px auto 100px;
     background-color: #DCE3BA;
 }
 
@@ -36,6 +36,11 @@ body {
     margin-right: 30px;
 }
 
+li:hover{
+    transform: translateY(5px);
+    transition-duration: 0.5s;
+}
+
 .gridContainer .flex .menu ul a{
     text-decoration: none;
     color: #C7BDA5;
@@ -44,13 +49,31 @@ body {
 }
 
 .gridContainer .nav{
-    background-color:white;
+    background-color:#E5EBCA;
     grid-column: 1/4;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
 .gridContainer .nav img{
     max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .gridContainer .main{
@@ -82,6 +105,13 @@ body {
     background-color: white;
     text-align: center;
     box-shadow: 2px 2px 5px #999;
+    transition: all .5s;
+}
+
+.gridContainer .main .imgEspacio .imgItem:hover{
+    width: 320px;
+    height: 320px;
+    background-color: #DFF2C7;
 }
 
 .gridContainer .main .imgEspacio .imgItem img{
@@ -143,7 +173,7 @@ body {
     background-color: white;
     grid-column: 1/4;
     font-family: 'Thasadith', sans-serif;
-    background-color: white;
+    background: linear-gradient(to bottom, white, #C7BDA5);
     width: 100%;
 }
 
@@ -165,7 +195,7 @@ body {
 .gridContainer-arqui {
     display: grid;
     grid-template-columns: 300px auto;
-    grid-template-rows: 100px 300px auto 100px;
+    grid-template-rows: 100px 360px auto 100px;
     background-color: #E8DABE;
 }
 
@@ -195,12 +225,31 @@ body {
 
 .gridContainer-arqui .nav{
     grid-column: 1/3;
-    background-color: white;
+    background-color: #E5EBCA;
 }
 
+
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
 .gridContainer-arqui .nav img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .gridContainer-arqui .main{
@@ -259,6 +308,11 @@ body {
     box-shadow: 2px 2px 5px #999
 }
 
+.ideasArqui .itemIdeas h2:hover{
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+}
+
 .ideasArqui .itemIdeas img{
     max-width: 500px;
     height: auto;
@@ -304,7 +358,7 @@ body {
     background-color: white;
     grid-column: 1/4;
     font-family: 'Thasadith', sans-serif;
-    background-color: white;
+    background: linear-gradient(to bottom, white, #C7BDA5);
     width: 100%;
 }
 
@@ -326,7 +380,7 @@ margin-left: 30px
 .gridContainer-diseño {
     display: grid;
     grid-template-columns: 300px auto;
-    grid-template-rows: 100px 300px auto 100px;
+    grid-template-rows: 100px 360px auto 100px;
 }
 
 .gridContainer-diseño .flex {
@@ -355,12 +409,30 @@ margin-left: 30px
 
 .gridContainer-diseño .nav{
     grid-column: 1/3;
-    background-color: white;
+    background-color: #E5EBCA;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
 .gridContainer-diseño .nav img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .gridContainer-diseño .main{
@@ -376,6 +448,7 @@ margin-left: 30px
     margin-bottom: 150px;
     margin-left: 20%;
 }
+
 
 .ideasDiseño .itemDiseño h1{
     font-family: 'Bebas Neue', cursive;
@@ -418,6 +491,12 @@ margin-left: 30px
     opacity: 0.9;
 }
 
+.flex-diseño .itemDiseño1 img:hover{
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
 .flex-diseño .itemDiseño1 p{
     font-family: 'Thasadith', sans-serif;
     text-align: center;
@@ -434,7 +513,7 @@ margin-left: 30px
         background-color: white;
         grid-column: 1/4;
         font-family: 'Thasadith', sans-serif;
-        background-color: white;
+        background: linear-gradient(to bottom, white, #C7BDA5);
         width: 100%;
 }
 
@@ -457,7 +536,7 @@ margin-left: 30px
 .gridContainer-deco{
     display: grid;
     grid-template-columns: 300px auto;
-    grid-template-rows: 100px 300px auto 100px;
+    grid-template-rows: 100px 360px auto 100px;
 }
 
 .gridContainer-deco .flex{
@@ -485,13 +564,31 @@ margin-left: 30px
 }
 
 .gridContainer-deco .nav{
-    background-color:white;
+    background-color: #E5EBCA;
     grid-column: 1/3;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
 .gridContainer-deco .nav img{
     max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 
@@ -540,7 +637,7 @@ margin-left: 30px
     background-color: white;
     grid-column: 1/4;
     font-family: 'Thasadith', sans-serif;
-    background-color: white;
+    background: linear-gradient(to bottom, white, #C7BDA5);
     width: 100%;
 }
 .gridContainer-deco .footer .footerImg {
@@ -561,7 +658,7 @@ margin-left: 30px
 .gridContainer-contacto{
     display: grid;
     grid-template-columns: 300 auto;
-    grid-template-rows: 100px 300px auto 100px;
+    grid-template-rows: 100px 360px auto 100px;
 }
 
 .gridContainer-contacto .flex{
@@ -590,12 +687,30 @@ margin-left: 30px
 
 .gridContainer-contacto .nav{
     grid-column: 1/3;
-    background-color: white;
+    background-color: #E5EBCA;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
 .gridContainer-contacto .nav img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .gridContainer-contacto .main{
@@ -686,7 +801,7 @@ input[type=reset] {
     background-color: white;
     grid-column: 1/4;
     font-family: 'Thasadith', sans-serif;
-    background-color: white;
+    background: linear-gradient(to bottom, white, #C7BDA5);
     width: 100%;
 }
 .gridContainer-contacto .footer .footerImg {
