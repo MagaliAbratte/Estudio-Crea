@@ -36,6 +36,11 @@ body {
     margin-right: 30px;
 }
 
+li:hover{
+    transform: translateY(5px);
+    transition-duration: 0.5s;
+}
+
 .gridContainer .flex .menu ul a{
     text-decoration: none;
     color: #C7BDA5;
@@ -48,9 +53,29 @@ body {
     grid-column: 1/4;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
 .gridContainer .nav img{
     max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .gridContainer .main{
@@ -82,7 +107,15 @@ body {
     background-color: white;
     text-align: center;
     box-shadow: 2px 2px 5px #999;
+    transition: all .5s;
 }
+
+.gridContainer .main .imgEspacio .imgItem:hover{
+    width: 320px;
+    height: 320px;
+    background-color: #D9C6B0;
+}
+
 
 .gridContainer .main .imgEspacio .imgItem img{
     width: 70px;
@@ -109,7 +142,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
-    background-color:#D9E2BD;
+    background: linear-gradient(to bottom, #7D7E76, #BBBCB7);
     padding: 20px;
 }
 
@@ -124,7 +157,7 @@ body {
     font-size: 0.6cm;
     letter-spacing: 1px;
     text-align: justify;
-    color:#7C7445;
+    color:#F2F1F0;
     margin-top: 20px;
 }
 
@@ -198,9 +231,30 @@ body {
     background-color: white;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
 .gridContainer-arqui .nav img{
     width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+
 }
 
 .gridContainer-arqui .main{
@@ -257,6 +311,11 @@ body {
     align-items: center;
     margin-bottom: 50px;
     box-shadow: 2px 2px 5px #999
+}
+
+.ideasArqui .itemIdeas h2:hover{
+    transform: translateY(7px);
+    transition-duration: 0.5s;
 }
 
 .ideasArqui .itemIdeas img{
@@ -358,9 +417,28 @@ margin-left: 30px
     background-color: white;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 .gridContainer-diseño .nav img{
     width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .gridContainer-diseño .main{
@@ -416,6 +494,12 @@ margin-left: 30px
     height: auto;
     box-shadow: 2px 2px 5px #999;
     opacity: 0.9;
+}
+
+.flex-diseño .itemDiseño1 img:hover{
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .flex-diseño .itemDiseño1 p{
@@ -489,11 +573,29 @@ margin-left: 30px
     grid-column: 1/3;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 .gridContainer-deco .nav img{
     max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
-
 
 .gridContainer-deco .main{
     grid-column: 1/3;
@@ -522,6 +624,12 @@ margin-left: 30px
      width: 100%;
      height: auto;
      box-shadow: 2px 2px 5px #999
+ }
+ 
+ .catalogo .item img:hover{
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+    cursor: pointer;
  }
  
  .catalogo .item p {
@@ -593,9 +701,28 @@ margin-left: 30px
     background-color: white;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 .gridContainer-contacto .nav img{
     width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .gridContainer-contacto .main{
