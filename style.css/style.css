@@ -1074,11 +1074,9 @@ margin-left: 30px
         display: grid;
         grid-template-columns: 160px 160px 160px;
         grid-template-rows: 150px 180px auto 150px;
-        background-color: #E8DABE;
     }
 
     .gridContainer .flex{
-        background-color: white;
         grid-column: 1/4;
         display: flex;
         justify-content: space-evenly;
@@ -1091,7 +1089,6 @@ margin-left: 30px
     }
 
     .gridContainer .nav{
-        background-color:white;
         grid-column: 1/4;
     }
     
@@ -1126,14 +1123,12 @@ margin-left: 30px
     
     .gridContainer .main .imgEspacio .imgItem h1{
         font-family: 'Bebas Neue', cursive;
-        color: #9B8A6E;
         text-align: center;
         margin-left: -5px;
     }
     
     .gridContainer .main .imgEspacio .imgItem p{
         font-family: 'Thasadith', sans-serif;
-        color:#7C7445;
         margin-top: 20px;
     }
 
@@ -1183,11 +1178,9 @@ margin-left: 30px
         display: grid;
         grid-template-columns: 300px auto;
         grid-template-rows: 150px 180px auto 150px;
-        background-color: #E8DABE;
     }
 
     .gridContainer-arqui .flex{
-        background-color: white;
         grid-column: 1/3;
         display: flex;
         justify-content: space-evenly;
@@ -1200,7 +1193,6 @@ margin-left: 30px
     }
 
     .gridContainer-arqui .nav{
-        background-color:white;
         grid-column: 1/4;
     }
     
@@ -1244,7 +1236,6 @@ margin-left: 30px
     .proyectos {
         width: 470px;
         height: auto;
-        background-color:#EFFCE1;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1291,7 +1282,6 @@ margin-left: 30px
     }
     
     .gridContainer-diseño .flex {
-        background-color: white;
         grid-column: 1/3;
         display: flex;
         flex-wrap: wrap;
@@ -1305,7 +1295,6 @@ margin-left: 30px
     
     .gridContainer-diseño .nav{
         grid-column: 1/3;
-        background-color: white;
     }
     
     .gridContainer-diseño .nav img{
@@ -1314,7 +1303,6 @@ margin-left: 30px
     
     .gridContainer-diseño .main{
         grid-column: 1/3;
-        background-color:#EFFCE1;
     }
 
     .ideasDiseño{
@@ -1331,7 +1319,6 @@ margin-left: 30px
     
     .ideasDiseño .itemDiseño h1{
         font-family: 'Bebas Neue', cursive;
-        color: #9B8A6E;
         text-align: center;
         margin-top: 60px;
         margin-right: 10px;
@@ -1341,9 +1328,7 @@ margin-left: 30px
     .ideasDiseño .itemDiseño p{
         font-family: 'Thasadith', sans-serif;
         text-align: justify;
-        background-color: #BBBCB7;
         letter-spacing: 3px;
-        color: white;
         max-width: 400px;
         padding: 5px;
     }
@@ -1376,8 +1361,6 @@ margin-left: 30px
         font-family: 'Thasadith', sans-serif;
         text-align: center;
         background-color: #7D7E76;
-        color:#F2F1F0; 
-        color: white;
         font-size: 0.7cm;
     }
     
@@ -1395,8 +1378,6 @@ margin-left: 30px
     .gridContainer-diseño .footer .footerInfo{
     text-align: center;
     }
-
-
 
     
     /* DECORACION */
@@ -1468,7 +1449,6 @@ margin-left: 30px
     }
     
     .gridContainer-contacto .flex{
-        background-color: white;
         grid-column: 1/3;
         display: flex;
         flex-wrap: wrap;
