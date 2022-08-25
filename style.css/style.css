@@ -36,11 +36,6 @@ body {
     margin-right: 30px;
 }
 
-li:hover{
-    transform: translateY(5px);
-    transition-duration: 0.5s;
-}
-
 .gridContainer .flex .menu ul a{
     text-decoration: none;
     color: #9B8A6E;
@@ -53,27 +48,9 @@ li:hover{
     grid-column: 1/4;
 }
 
-@keyframes animacion {
-    0% {
-        opacity: 0;
-    }
-
-    50%{
-        opacity: 0.5;
-    }
-
-    100%{
-        opacity: 1;
-    }
-}
 .gridContainer .nav img{
     max-width: 100%;
     height: auto;
-    animation-name: animacion;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-timing-function: linear;
-    animation-iteration-count: initial;
 }
 
 .gridContainer .main{
@@ -81,15 +58,6 @@ li:hover{
     grid-column: 1/4;
 }
 
-/* .gridContainer .main h1{
-    justify-content: center;
-    font-family: 'Bebas Neue', cursive;
-    color: #C7BDA5;
-    font-size: 1.5cm;
-    margin-left: 43%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-} */
 
 .gridContainer .main .imgEspacio{
     display: flex;
@@ -105,14 +73,8 @@ li:hover{
     background-color: white;
     text-align: center;
     box-shadow: 2px 2px 5px #999;
-    transition: all .5s;
 }
 
-.gridContainer .main .imgEspacio .imgItem:hover{
-    width: 320px;
-    height: 320px;
-    background-color: #D9C6B0;
-}
 
 .gridContainer .main .imgEspacio .imgItem img{
     width: 70px;
@@ -173,7 +135,7 @@ li:hover{
     background-color: white;
     grid-column: 1/4;
     font-family: 'Thasadith', sans-serif;
-    background: linear-gradient(to bottom, white, #D9C6B0, #9B8A6E);
+    background: white;
     width: 100%;
 }
 
@@ -228,28 +190,9 @@ li:hover{
     background-color: #E5EBCA;
 }
 
-
-@keyframes animacion {
-    0% {
-        opacity: 0;
-    }
-
-    50%{
-        opacity: 0.5;
-    }
-
-    100%{
-        opacity: 1;
-    }
-}
 .gridContainer-arqui .nav img{
     max-width: 100%;
     height: auto;
-    animation-name: animacion;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-timing-function: linear;
-    animation-iteration-count: initial;
 }
 
 .gridContainer-arqui .main{
@@ -308,10 +251,6 @@ li:hover{
     box-shadow: 2px 2px 5px #999
 }
 
-.ideasArqui .itemIdeas h2:hover{
-    transform: translateY(7px);
-    transition-duration: 0.5s;
-}
 
 .ideasArqui .itemIdeas img{
     max-width: 500px;
@@ -349,7 +288,6 @@ li:hover{
     cursor: pointer;
 }
 
-
 .gridContainer-arqui .footer{
     display: flex;
     flex-direction: row-reverse;
@@ -358,7 +296,7 @@ li:hover{
     background-color: white;
     grid-column: 1/4;
     font-family: 'Thasadith', sans-serif;
-    background: linear-gradient(to bottom, white, #C7BDA5);
+    background: white;
     width: 100%;
 }
 
@@ -412,27 +350,9 @@ margin-left: 30px
     background-color: #E5EBCA;
 }
 
-@keyframes animacion {
-    0% {
-        opacity: 0;
-    }
-
-    50%{
-        opacity: 0.5;
-    }
-
-    100%{
-        opacity: 1;
-    }
-}
 .gridContainer-diseño .nav img{
     max-width: 100%;
     height: auto;
-    animation-name: animacion;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-timing-function: linear;
-    animation-iteration-count: initial;
 }
 
 .gridContainer-diseño .main{
@@ -448,7 +368,6 @@ margin-left: 30px
     margin-bottom: 150px;
     margin-left: 20%;
 }
-
 
 .ideasDiseño .itemDiseño h1{
     font-family: 'Bebas Neue', cursive;
@@ -491,11 +410,6 @@ margin-left: 30px
     opacity: 0.9;
 }
 
-.flex-diseño .itemDiseño1 img:hover{
-    transform: translateY(7px);
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
 
 .flex-diseño .itemDiseño1 p{
     font-family: 'Thasadith', sans-serif;
@@ -513,7 +427,7 @@ margin-left: 30px
         background-color: white;
         grid-column: 1/4;
         font-family: 'Thasadith', sans-serif;
-        background: linear-gradient(to bottom, white, #C7BDA5);
+        background: white;
         width: 100%;
 }
 
@@ -568,27 +482,9 @@ margin-left: 30px
     grid-column: 1/3;
 }
 
-@keyframes animacion {
-    0% {
-        opacity: 0;
-    }
-
-    50%{
-        opacity: 0.5;
-    }
-
-    100%{
-        opacity: 1;
-    }
-}
 .gridContainer-deco .nav img{
     max-width: 100%;
     height: auto;
-    animation-name: animacion;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-timing-function: linear;
-    animation-iteration-count: initial;
 }
 
 
@@ -637,7 +533,7 @@ margin-left: 30px
     background-color: white;
     grid-column: 1/4;
     font-family: 'Thasadith', sans-serif;
-    background: linear-gradient(to bottom, white, #C7BDA5);
+    background: white;
     width: 100%;
 }
 .gridContainer-deco .footer .footerImg {
@@ -690,27 +586,9 @@ margin-left: 30px
     background-color: #E5EBCA;
 }
 
-@keyframes animacion {
-    0% {
-        opacity: 0;
-    }
-
-    50%{
-        opacity: 0.5;
-    }
-
-    100%{
-        opacity: 1;
-    }
-}
 .gridContainer-contacto .nav img{
     max-width: 100%;
     height: auto;
-    animation-name: animacion;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-timing-function: linear;
-    animation-iteration-count: initial;
 }
 
 .gridContainer-contacto .main{
@@ -801,7 +679,7 @@ input[type=reset] {
     background-color: white;
     grid-column: 1/4;
     font-family: 'Thasadith', sans-serif;
-    background: linear-gradient(to bottom, white, #C7BDA5);
+    background: white;
     width: 100%;
 }
 .gridContainer-contacto .footer .footerImg {
