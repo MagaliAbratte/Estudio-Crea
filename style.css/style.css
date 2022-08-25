@@ -1,4 +1,4 @@
-/*COLORES: #E6D3FF; #A9FF9E; #A8865E; #F0C0C4; #D3F0D0*; #E8DABE; #C7BDA5/
+/*COLORES: #F2F1F0, #9B8A6E, #D9C6B0, #7D7E76, #BBBCB7;
 /*FONTS: Bebas Neue; Thasadith; Italiana*/
 
 *{
@@ -43,13 +43,13 @@ li:hover{
 
 .gridContainer .flex .menu ul a{
     text-decoration: none;
-    color: #C7BDA5;
+    color: #9B8A6E;
     font-family: 'Bebas Neue', cursive;
     font-size: 0.5cm;
 }
 
 .gridContainer .nav{
-    background-color:#E5EBCA;
+    background-color: #F2F1F0;
     grid-column: 1/4;
 }
 
@@ -77,7 +77,7 @@ li:hover{
 }
 
 .gridContainer .main{
-    background-color: #E5EBCA;
+    background-color: #F2F1F0;
     grid-column: 1/4;
 }
 
@@ -111,7 +111,7 @@ li:hover{
 .gridContainer .main .imgEspacio .imgItem:hover{
     width: 320px;
     height: 320px;
-    background-color: #DFF2C7;
+    background-color: #D9C6B0;
 }
 
 .gridContainer .main .imgEspacio .imgItem img{
@@ -124,7 +124,7 @@ li:hover{
 
 .gridContainer .main .imgEspacio .imgItem h1{
     font-family: 'Bebas Neue', cursive;
-    color: #C7BDA5;
+    color: #9B8A6E;
 }
 
 .gridContainer .main .imgEspacio .imgItem p{
@@ -139,7 +139,7 @@ li:hover{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
-    background-color:#D9E2BD;
+    background-color: #9DA695;
     padding: 20px;
 }
 
@@ -154,7 +154,7 @@ li:hover{
     font-size: 0.6cm;
     letter-spacing: 1px;
     text-align: justify;
-    color:#7C7445;
+    color:#F2F1F0;
     margin-top: 20px;
 }
 
@@ -173,7 +173,7 @@ li:hover{
     background-color: white;
     grid-column: 1/4;
     font-family: 'Thasadith', sans-serif;
-    background: linear-gradient(to bottom, white, #C7BDA5);
+    background: linear-gradient(to bottom, white, #D9C6B0, #9B8A6E);
     width: 100%;
 }
 
