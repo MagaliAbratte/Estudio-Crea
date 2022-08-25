@@ -36,6 +36,11 @@ body {
     margin-right: 30px;
 }
 
+li:hover{
+    transform: translateY(5px);
+    transition-duration: 0.5s;
+}
+
 .gridContainer .flex .menu ul a{
     text-decoration: none;
     color: #9B8A6E;
@@ -48,9 +53,29 @@ body {
     grid-column: 1/4;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
 .gridContainer .nav img{
     max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .gridContainer .main{
@@ -70,9 +95,15 @@ body {
 .gridContainer .main .imgEspacio .imgItem{
     width: 300px;
     height: 300px;
-    background-color: white;
     text-align: center;
     box-shadow: 2px 2px 5px #999;
+    transition: all .5s;
+}
+
+.gridContainer .main .imgEspacio .imgItem:hover{
+    width: 320px;
+    height: 320px;
+    background-color: #D9C6B0;
 }
 
 
@@ -101,7 +132,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
-    background-color: #9DA695;
+    background: linear-gradient(to bottom, #7D7E76, #BBBCB7);
     padding: 20px;
 }
 
@@ -190,9 +221,30 @@ body {
     background-color: #E5EBCA;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
 .gridContainer-arqui .nav img{
     max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+
 }
 
 .gridContainer-arqui .main{
@@ -251,7 +303,14 @@ body {
     box-shadow: 2px 2px 5px #999
 }
 
-
+/* <<<<<<< HEAD
+=======
+.ideasArqui .itemIdeas h2:hover{
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+}
+>>>>>>> animaciones
+  */
 .ideasArqui .itemIdeas img{
     max-width: 500px;
     height: auto;
@@ -350,9 +409,28 @@ margin-left: 30px
     background-color: #E5EBCA;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 .gridContainer-diseño .nav img{
     max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .gridContainer-diseño .main{
@@ -410,6 +488,14 @@ margin-left: 30px
     opacity: 0.9;
 }
 
+/* <<<<<<< HEAD
+=======
+.flex-diseño .itemDiseño1 img:hover{
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+>>>>>>> animaciones */
 
 .flex-diseño .itemDiseño1 p{
     font-family: 'Thasadith', sans-serif;
@@ -482,11 +568,29 @@ margin-left: 30px
     grid-column: 1/3;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 .gridContainer-deco .nav img{
     max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
-
 
 .gridContainer-deco .main{
     grid-column: 1/3;
@@ -515,6 +619,12 @@ margin-left: 30px
      width: 100%;
      height: auto;
      box-shadow: 2px 2px 5px #999
+ }
+ 
+ .catalogo .item img:hover{
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+    cursor: pointer;
  }
  
  .catalogo .item p {
@@ -586,9 +696,28 @@ margin-left: 30px
     background-color: #E5EBCA;
 }
 
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 .gridContainer-contacto .nav img{
     max-width: 100%;
     height: auto;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .gridContainer-contacto .main{
