@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color:#DCE3BA;
+    background-color: white;
 }
 
 /* INDEX */
@@ -341,8 +341,135 @@ li:hover{
     margin-left: 30px
 }
  */
-/* ARQUITECTURA */
-.gridContainer-arqui {
+
+
+ /* ARQUITECTURA */
+
+.gridContainer-arqui{
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 500px auto 100px;
+}
+
+.gridContainer-arqui .main{
+    grid-column: 1/4;
+    background-color: #F2F1F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.arquitectura {
+    font-family: 'Bebas Neue', cursive;
+    color:#7D7E76;
+    text-align: center;
+    font-size: 1.7cm;
+    margin-top: 200px; 
+    height: 100px;
+}
+
+.ideasArqui {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.ideasArqui .itemIdeas h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #9B8A6E;
+    text-align: left;
+    font-size: 0.7cm;
+    max-width: 250px;
+}
+
+.ideasArqui .itemIdeas p{
+    font-family: 'Thasadith', sans-serif;
+    font-size: 0.6cm;
+    text-align: left;
+    color: #C7BDA5;
+    max-width: 250px;
+}
+
+.ideasArqui .itemIdeas h2{
+    font-family: 'Thasadith', sans-serif;
+    text-align: center;
+    font-size: 0.6cm;
+    color: white;
+    background-color: #D9C6B0;
+    padding: 10px;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.ideasArqui .itemIdeas h2:hover{
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+}
+
+.ideasArqui .itemIdeas img{
+    max-width: 500px;
+    height: auto;
+    opacity: 0.5; 
+    box-shadow: 2px 2px 5px #999
+}
+
+.gridContainer-arqui .proyectos{
+    grid-column: 1/4;
+    background-color: #F2F1F0;
+}
+
+.card{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.card-body{
+    font-family: 'Thasadith', sans-serif;
+    font-size: 0.6cm;
+    text-align: center;
+    background-color: #7D7E76;
+    color: #F2F1F0;
+    cursor: pointer;
+}
+
+
+.gridContainer-arqui .footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    grid-column: 1/4;
+    font-family: 'Thasadith', sans-serif;
+    background: white;
+    width: 100%;
+}
+
+.gridContainer-arqui .footer .footerImg {
+padding: 20px;
+}
+
+.gridContainer-arqui .footer .footerImg img {
+width: 30px;
+height: auto;
+cursor: pointer;
+}
+
+.gridContainer-arqui .footer .footerInfo{
+margin-left: 30px
+}
+
+
+
+ 
+/* .gridContainer-arqui {
     display: grid;
     grid-template-columns: 300px auto;
     grid-template-rows: 100px 360px auto 100px;
@@ -526,7 +653,7 @@ cursor: pointer;
 
 .gridContainer-arqui .footer .footerInfo{
 margin-left: 30px
-}
+} */
 
 /* DISEÑO */
 .gridContainer-diseño {
@@ -1053,17 +1180,17 @@ margin-left: 30px
     .gridContainer-arqui {
         display: grid;
         grid-template-columns: 300px 468px;
-        grid-template-rows: 100px 200px auto 100px;
+        grid-template-rows: 850px auto 100px;
     }
 
-    .gridContainer-arqui .nav{
+ /*    .gridContainer-arqui .nav{
         grid-column: 1/4;
     }
     
     .gridContainer-arqui .nav img{
         height: 100%;
     }
-
+ */
     .ideasArqui {
         display: flex;
         flex-direction: row;
@@ -1071,9 +1198,12 @@ margin-left: 30px
         align-items: center;
         justify-content: space-evenly;
         gap: 10px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     
+    .container{
+        margin-top: 50px;
+    }
 
     /* DISEÑO */
 
@@ -1336,7 +1466,7 @@ margin-left: 30px
     .gridContainer-arqui {
         display: grid;
         grid-template-columns: 300px auto;
-        grid-template-rows: 150px 180px auto 150px;
+        grid-template-rows: 900px auto 150px;
     }
 
     .gridContainer-arqui .flex{
@@ -1346,7 +1476,7 @@ margin-left: 30px
         flex-wrap: wrap;
         align-items: center;
     }
-    
+/*     
     .gridContainer-arqui .flex .logo {
         margin-left: 0px;
     }
@@ -1354,11 +1484,11 @@ margin-left: 30px
     .gridContainer-arqui .nav{
         grid-column: 1/4;
     }
-    
-    .gridContainer-arqui .nav img{
+     */
+  /*   .gridContainer-arqui .nav img{
         height: 100%;
     }
-
+ */
     .ideasArqui {
         display: flex;
         flex-direction: row;
@@ -1371,7 +1501,7 @@ margin-left: 30px
     }
 
     .ideasArqui .itemIdeas{
-        max-width: 400px;
+        max-width: 300px;
     }
     
     .ideasArqui .itemIdeas h1{
@@ -1383,12 +1513,12 @@ margin-left: 30px
     }
     
     .ideasArqui .itemIdeas p{
-        max-width: 250px;
+        max-width: 200px;
         text-align: justify;
     }
     
     .ideasArqui .itemIdeas img{
-        max-width: 400px;
+        max-width: 300px;
         height: auto;
     } 
 
