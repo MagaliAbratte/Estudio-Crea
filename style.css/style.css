@@ -11,55 +11,47 @@ body {
     background-color: white;
 }
 
+.btn {
+    font-family: 'Thasadith', sans-serif;
+}
+
+.btn .bnt-outline {
+    background-color: #BBBCB7;
+}
+
 /* INDEX */
-.container-fluid{
+.container-fluid {
     background-color: white;
 }
 
-.nav-item a{
+.nav-item a {
     text-decoration: none;
     color:#9B8A6E;
     font-family: 'Bebas Neue', cursive;
     font-size: 1.2rem;
 }
 
-a:hover{
+a:hover {
     transform: translateY(5px);
     transition-duration: 0.6s;
 }
 
-.form-control{
+.form-control {
     font-family: 'Thasadith', sans-serif;
 }
 
-.btn{
-    font-family: 'Thasadith', sans-serif;
-}
-
-.bnt-outline{
-    background-color: #BBBCB7;
-}
-
-/* #carouselExampleControls{
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 50px;
-} */
-
-/* GRID */
-.gridContainer{
+.gridContainer {
     display: grid;
     grid-template-columns: 300px auto 300px;
     grid-template-rows: 400px auto 100px;
     background-color: #F2F1F0;
 }
 
-.gridContainer .presentacion{
+.gridContainer .presentacion {
     grid-column: 1/4;
 }
 
-.gridContainer .presentacion .flex-presentacion{
+.gridContainer .presentacion .flex-presentacion {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -67,7 +59,7 @@ a:hover{
     margin-top: 50px;
 }
 
-.gridContainer .presentacion .flex-presentacion .imgItem{
+.gridContainer .presentacion .flex-presentacion .imgItem {
     width: 300px;
     height: 300px;
     text-align: center;
@@ -76,14 +68,14 @@ a:hover{
     background-color: white;
 }
 
-.gridContainer .presentacion .flex-presentacion .imgItem:hover{
+.gridContainer .presentacion .flex-presentacion .imgItem:hover {
     width: 320px;
     height: 320px;
     background-color:#D2E3BA;
 }
 
 
-.gridContainer .presentacion .flex-presentacion .imgItem img{
+.gridContainer .presentacion .flex-presentacion .imgItem img {
     width: 70px;
     height: auto;
     margin-top: 15px;
@@ -91,22 +83,22 @@ a:hover{
     opacity: 0.5;
 }
 
-.gridContainer .presentacion .flex-presentacion .imgItem h1{
+.gridContainer .presentacion .flex-presentacion .imgItem h1 {
     font-family: 'Bebas Neue', cursive;
     color: #9B8A6E;
 }
 
-.gridContainer .presentacion .flex-presentacion .imgItem p{
+.gridContainer .presentacion .flex-presentacion .imgItem p {
     font-family: 'Thasadith', sans-serif;
     color:#7C7445;
     margin-top: 20px;
 }
 
-.gridContainer .main{
+.gridContainer .main {
     grid-column: 1/4;
 }
 
-.gridContainer .main .cuerpo{
+.gridContainer .main .cuerpo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -116,12 +108,12 @@ a:hover{
     padding: 20px;
 }
 
-.gridContainer .main .cuerpo .itemP{
+.gridContainer .main .cuerpo .itemP {
     width: 450px;
     height: 450px;
 }
 
-.gridContainer .main .cuerpo .itemP p{
+.gridContainer .main .cuerpo .itemP p {
     max-width: 100%;
     font-family: 'Thasadith', sans-serif;
     font-size: 0.6cm;
@@ -131,7 +123,7 @@ a:hover{
     margin-top: 10px;
 }
 
-.gridContainer .main .cuerpo .itemP img{
+.gridContainer .main .cuerpo .itemP img {
     max-width: 100%;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -159,20 +151,19 @@ a:hover{
     cursor: pointer;
 }
 
-.gridContainer .footer .footerInfo{
+.gridContainer .footer .footerInfo {
     margin-left: 30px
 } 
 
 
-
  /* ARQUITECTURA */
-.gridContainer-arqui{
+.gridContainer-arqui {
     display: grid;
     grid-template-columns: 300px auto;
     grid-template-rows: 500px auto 100px;
 }
 
-.gridContainer-arqui .main{
+.gridContainer-arqui .main {
     grid-column: 1/4;
     background-color: #F2F1F0;
     display: flex;
@@ -199,7 +190,7 @@ a:hover{
     margin-bottom: 150px;
 }
 
-.ideasArqui .itemIdeas h1{
+.ideasArqui .itemIdeas h1 {
     font-family: 'Bebas Neue', cursive;
     color: #9B8A6E;
     text-align: left;
@@ -207,7 +198,7 @@ a:hover{
     max-width: 250px;
 }
 
-.ideasArqui .itemIdeas p{
+.ideasArqui .itemIdeas p {
     font-family: 'Thasadith', sans-serif;
     font-size: 1.2rem;
     text-align: left;
@@ -215,7 +206,7 @@ a:hover{
     max-width: 250px;
 }
 
-.ideasArqui .itemIdeas h2{
+.ideasArqui .itemIdeas h2 {
     font-family: 'Thasadith', sans-serif;
     text-align: center;
     font-size: 1.5rem;
@@ -228,30 +219,35 @@ a:hover{
     box-shadow: 2px 2px 5px #999;
 }
 
-.ideasArqui .itemIdeas h2:hover{
+.ideasArqui .itemIdeas h2:hover {
     transform: translateY(7px);
     transition-duration: 0.5s;
 }
 
-.ideasArqui .itemIdeas img{
+.ideasArqui .itemIdeas img {
     max-width: 500px;
     height: auto;
     opacity: 0.5; 
     box-shadow: 2px 2px 5px #999
 }
 
-.gridContainer-arqui .proyectos{
+.gridContainer-arqui .proyectos {
     grid-column: 1/4;
     background-color: #F2F1F0;
 }
 
-.card{
+.card {
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 30px;
+    max-width: 480px;
+    justify-items: center;
 }
 
-.card-body{
+.card .card-body:hover{
+    background-color: #C7BDA5;
+}
+
+.card-body {
     font-family: 'Thasadith', sans-serif;
     font-size: 1.5rem;
     text-align: center;
@@ -260,7 +256,7 @@ a:hover{
     cursor: pointer;
 }
 
-.gridContainer-arqui .footer{
+.gridContainer-arqui .footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -273,17 +269,17 @@ a:hover{
 }
 
 .gridContainer-arqui .footer .footerImg {
-padding: 20px;
+    padding: 20px;
 }
 
 .gridContainer-arqui .footer .footerImg img {
-width: 30px;
-height: auto;
-cursor: pointer;
+    width: 30px;
+    height: auto;
+    cursor: pointer;
 }
 
-.gridContainer-arqui .footer .footerInfo{
-margin-left: 30px
+.gridContainer-arqui .footer .footerInfo {
+    margin-left: 30px
 }
 
 
@@ -747,7 +743,6 @@ margin-left: 30px
     
     .container{
         margin-top: 30px;
-        margin-left: 100px;
     }
 
 
@@ -761,7 +756,7 @@ margin-left: 30px
     .main{
         max-width: 768px;
     }
-    
+
     .presentacion {
         display: flex;
         flex-direction: row;
@@ -775,47 +770,42 @@ margin-left: 30px
         max-width: 768px;
     }
 
-.jardines {
-    font-family: 'Bebas Neue', cursive;
-    color:#7D7E76;
-    text-align: center;
-    font-size: 4rem;
-    margin-top: 30px; 
-    height: 100px;
-}
+    .jardines {
+        font-family: 'Bebas Neue', cursive;
+        color:#7D7E76;
+        text-align: center;
+        font-size: 4rem;
+        margin-top: 30px; 
+        height: 100px;
+    }
 
-.ideasJardines {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 10px;
-}
+    .ideasJardines {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+       gap: 10px;
+       margin-bottom: 10px;
+    }
 
-.ideasJardines .itemIdeas h1{
-    font-family: 'Bebas Neue', cursive;
-    color: #9B8A6E;
-    text-align: left;
-    font-size: 2.5rem;
-    max-width: 250px;
-}
+   .ideasJardines .itemIdeas h1{
+      font-family: 'Bebas Neue', cursive;
+      color: #9B8A6E;
+      text-align: left;
+      font-size: 2.5rem;
+      max-width: 250px;
+    }
 
-.portfolio{
-    align-items: center;
-    margin-top: 50px;
-    font-family: 'Bebas Neue', cursive;
-    background-color: #9B8A6E;
-    color: white;
-    padding: 30px;
-    font-size: 3rem;
-}
-
-.col-8{
-    margin-left: -60px;
-}
-
+   .portfolio{
+      align-items: center;
+      margin-top: 50px;
+      font-family: 'Bebas Neue', cursive;
+      background-color: #9B8A6E;
+      color: white;
+      padding: 20px;
+      font-size: 2rem;
+    }
     
     /* DECORACION */
     .gridContainer-deco{
@@ -831,10 +821,13 @@ margin-left: 30px
         grid-template-rows: 100px auto 100px;
     } 
 
-    .gridContainer-contacto .footer{
+    .gridContacto{
         grid-column: 1/4;
     }
 
+    .gridContainer-contacto .footer{
+        grid-column: 1/4;
+    }
 }
 
 @media (max-width: 576px){
@@ -916,14 +909,13 @@ margin-left: 30px
     }
     
     .gridContainer .footer .footerImg img {
-    width: 20px;
+        width: 20px;
     }
     
     .gridContainer .footer .footerInfo{
-    text-align: center;
+        text-align: center;
     }
    
-
     /* ARQUI */
     .gridContainer-arqui {
         display: grid;
@@ -968,10 +960,6 @@ margin-left: 30px
         height: auto;
     } 
 
-    .card{
-        margin-left: -60px;
-    }
-
     .gridContainer-arqui .footer .footerImg img {
         width: 18px;
     }
@@ -984,11 +972,11 @@ margin-left: 30px
     }
     
     .gridContainer-arqui .footer .footerImg img {
-    width: 20px;
+        width: 20px;
     }
     
     .gridContainer-arqui .footer .footerInfo{
-    text-align: center;
+       text-align: center;
     }
 
     
@@ -1051,9 +1039,7 @@ margin-left: 30px
     text-align: center;
     }
 
-    
     /* DECORACION */
-
     .gridContainer-deco{
         display: grid;
         grid-template-columns: 300px 180px;
@@ -1072,11 +1058,11 @@ margin-left: 30px
     }
     
     .gridContainer-deco .footer .footerImg img {
-    width: 20px;
+        width: 20px;
     }
     
     .gridContainer-deco .footer .footerInfo{
-    text-align: center;
+        text-align: center;
     }
 
 
@@ -1085,6 +1071,10 @@ margin-left: 30px
         display: grid;
         grid-template-columns: 192px 192px 192px;
         grid-template-rows: 100px auto 150px;
+    }
+
+    .gridContainer-contacto{
+        grid-column: 1/4;
     }
     
 }
