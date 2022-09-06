@@ -11,10 +11,150 @@ body {
     background-color: white;
 }
 
-
-
 /* INDEX */
+.gridContainer{
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-template-rows: 80px 350px auto 100px;
+}
+
+.gridContainer .gridNav{
+    grid-column: 1/3;
+}
+
+.gridContainer .gridPortada{
+    grid-column: 1/3;
+}
+
+.gridContainer .gridMain{
+    background-color: #F2F1F0;
+    grid-column: 1/3;
+}
+
+.gridContainer .gridFooter{
+    grid-column: 1/3;
+}
+
 .container-fluid {
+    background-color: white;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color:#9DA695;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    transform: translateY(5px);
+    transition-duration: 0.6s;
+    color:#6B7060;
+}
+
+.form-control {
+    font-family: 'Thasadith', sans-serif;
+}
+
+.gridContainer .gridMain .presentacion .flex-presentacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.gridContainer .gridMain .presentacion .flex-presentacion .imgItem {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #999;
+    transition: all .5s;
+    background-color: white;
+}
+
+.gridContainer .gridMain .presentacion .flex-presentacion .imgItem:hover {
+    width: 320px;
+    height: 320px;
+    background-color:#D1C2A5;
+}
+
+.gridContainer .gridMain .presentacion .flex-presentacion .imgItem img {
+    width: 70px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: 0.5;
+}
+
+.gridContainer .gridMain .presentacion .flex-presentacion .imgItem h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #9B8A6E;
+}
+
+.gridContainer .gridMain .presentacion .flex-presentacion .imgItem p {
+    font-family: 'Thasadith', sans-serif;
+    color:#7C7445;
+    margin-top: 20px;
+}
+
+.gridContainer .gridMain .cuerpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    background: linear-gradient(to bottom, #BAC9A5, #BBBCB7);
+    padding: 20px;
+}
+
+.gridContainer .gridMain .cuerpo .itemP {
+    width: 450px;
+    height: 450px;
+}
+
+.gridContainer .gridMain .cuerpo .itemP p {
+    max-width: 100%;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: justify;
+    color:#F2F1F0;
+    margin-top: 10px;
+}
+
+.gridContainer .gridMain .cuerpo .itemP img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px #999
+}
+
+.gridContainer footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-family: 'Thasadith', sans-serif;
+    width: 100%;
+}
+
+.gridContainer footer .footerImg {
+    padding: 20px;
+}
+
+.gridContainer footer .footerImg img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.gridContainer footer .footerInfo {
+    margin-left: 30px
+} 
+
+/* .container-fluid {
     background-color: white;
 }
 
@@ -88,11 +228,11 @@ a:hover {
     margin-top: 20px;
 }
 
-.gridContainer .main {
+.gridContainer main {
     grid-column: 1/4;
 }
 
-.gridContainer .main .cuerpo {
+.gridContainer main .cuerpo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -102,12 +242,12 @@ a:hover {
     padding: 20px;
 }
 
-.gridContainer .main .cuerpo .itemP {
+.gridContainer main .cuerpo .itemP {
     width: 450px;
     height: 450px;
 }
 
-.gridContainer .main .cuerpo .itemP p {
+.gridContainer main .cuerpo .itemP p {
     max-width: 100%;
     font-family: 'Thasadith', sans-serif;
     font-size: 1.5rem;
@@ -117,14 +257,14 @@ a:hover {
     margin-top: 10px;
 }
 
-.gridContainer .main .cuerpo .itemP img {
+.gridContainer main .cuerpo .itemP img {
     max-width: 100%;
     border: 1px solid #ddd;
     border-radius: 4px;
     box-shadow: 2px 2px 5px #999
 }
 
-.gridContainer .footer {
+.gridContainer footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -135,29 +275,163 @@ a:hover {
     width: 100%;
 }
 
-.gridContainer .footer .footerImg {
+.gridContainer footer .footerImg {
     padding: 20px;
 }
 
-.gridContainer .footer .footerImg img {
+.gridContainer footer .footerImg img {
     width: 30px;
     height: auto;
     cursor: pointer;
 }
 
-.gridContainer .footer .footerInfo {
+.gridContainer footer .footerInfo {
     margin-left: 30px
-} 
-
+}  */
 
  /* ARQUITECTURA */
-.gridContainer-arqui {
+
+ .gridContainer-arqui{
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-template-rows: 80px 350px auto 100px;
+}
+
+.gridContainer-arqui .gridNav {
+    grid-column: 1/3;
+}
+
+.gridContainer-arqui .gridPortada {
+    grid-column: 1/3;
+}
+
+.gridContainer-arqui .gridMain {
+    background-color: #F2F1F0;
+    grid-column: 1/3;
+}
+
+.gridContainer-arqui .gridFooter {
+    grid-column: 1/3;
+}
+
+.gridContainer-arqui .gridMain .presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.presentacion .arquitectura {
+    font-family: 'Bebas Neue', cursive;
+    color:#9DA695;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 80px; 
+    height: 100px;
+}
+
+.ideasArqui {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.ideasArqui .itemIdeas h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #454A55;
+    text-align: left;
+    font-size: 1.8rem;
+    max-width: 250px;
+}
+
+.ideasArqui .itemIdeas p {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: #C7BDA5;
+    max-width: 250px;
+}
+
+.ideasArqui .itemIdeas h2 {
+    font-family: 'Thasadith', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #D9C6B0;
+    padding: 10px;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.ideasArqui .itemIdeas h2:hover {
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+}
+
+.ideasArqui .itemIdeas img {
+    max-width: 500px;
+    height: auto;
+    opacity: 0.5; 
+    box-shadow: 2px 2px 5px #999
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 480px;
+    justify-items: center;
+}
+
+.card-body {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #6B7060;
+    color: #F2F1F0;
+    cursor: pointer;
+}
+
+.card .card-body:hover{
+    background-color: #9DA695;
+}
+
+.gridContainer-arqui footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-family: 'Thasadith', sans-serif;
+    background: white;
+    width: 100%;
+}
+
+.gridContainer-arqui footer .footerImg {
+    padding: 20px;
+}
+
+.gridContainer-arqui footer .footerImg img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.gridContainer-arqui footer .footerInfo {
+    margin-left: 30px
+}  
+
+/* .gridContainer-arqui {
     display: grid;
     grid-template-columns: 300px auto;
     grid-template-rows: 500px auto 100px;
 }
 
-.gridContainer-arqui .main {
+.gridContainer-arqui .presentacion {
     grid-column: 1/4;
     background-color: #F2F1F0;
     display: flex;
@@ -225,7 +499,7 @@ a:hover {
     box-shadow: 2px 2px 5px #999
 }
 
-.gridContainer-arqui .proyectos {
+.gridContainer-arqui main {
     grid-column: 1/4;
     background-color: #F2F1F0;
 }
@@ -250,7 +524,7 @@ a:hover {
     background-color: #9DA695;
 }
 
-.gridContainer-arqui .footer {
+.gridContainer-arqui footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -262,23 +536,130 @@ a:hover {
     width: 100%;
 }
 
-.gridContainer-arqui .footer .footerImg {
+.gridContainer-arqui footer .footerImg {
     padding: 20px;
 }
 
-.gridContainer-arqui .footer .footerImg img {
+.gridContainer-arqui footer .footerImg img {
     width: 30px;
     height: auto;
     cursor: pointer;
 }
 
-.gridContainer-arqui .footer .footerInfo {
+.gridContainer-arqui footer .footerInfo {
     margin-left: 30px
-}
-
+}  */
 
 /* DISEÑO */
 .gridContainer-diseño {
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-template-rows: 80px 350px auto 100px;
+}
+
+.gridContainer-diseño .gridNav{
+    grid-column: 1/3;
+}
+
+.gridContainer-diseño .gridPortada{
+    grid-column: 1/3;
+}
+
+.gridContainer-diseño .gridMain{
+    background-color: #F2F1F0;
+    grid-column: 1/3;
+}
+
+.gridContainer-diseño .gridFooter{
+    grid-column: 1/3;
+}
+
+.gridMain .jardines {
+    font-family: 'Bebas Neue', cursive;
+    color:#6B7060;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 80px; 
+    height: 100px;
+}
+
+.gridMain .ideasJardines {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.gridMain .ideasJardines .itemIdeas h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #6B7060;
+    text-align: left;
+    font-size: 2.5rem;
+    max-width: 250px;
+}
+
+.gridMain .ideasJardines .itemIdeas h2 {
+    font-family: 'Thasadith', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #D9C6B0;
+    padding: 10px;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.gridMain .ideasJardines .itemIdeas h2:hover {
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+}
+
+.gridMain  .ideasJardines .itemIdeas img {
+    max-width: 500px;
+    height: auto;
+    opacity: 0.5; 
+    box-shadow: 2px 2px 5px #999
+}
+
+.portfolio {
+    align-items: center;
+    margin-top: 250px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #454A55;
+    color: white;
+    padding: 30px;
+    font-size: 3rem;
+}
+
+.gridContainer-diseño .gridFooter {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-family: 'Thasadith', sans-serif;
+    width: 100%;
+}
+
+.gridContainer-diseño .gridFooter .footerImg {
+    padding: 20px;
+}
+
+.gridContainer-diseño .gridFooter .footerImg img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.gridContainer-diseño .gridFooter .footerInfo {
+    margin-left: 30px
+} 
+
+/* .gridContainer-diseño {
     display: grid;
     grid-template-columns: 300px auto;
     grid-template-rows: auto 100px;
@@ -350,7 +731,7 @@ a:hover {
     font-size: 3rem;
 }
 
-.gridContainer-diseño .footer {
+.gridContainer-diseño footer {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -362,30 +743,109 @@ a:hover {
         width: 100%;
 }
 
-.gridContainer-diseño .footer .footerImg {
+.gridContainer-diseño footer .footerImg {
     padding: 20px;
 }
 
-.gridContainer-diseño .footer .footerImg img {
+.gridContainer-diseño footer .footerImg img {
     width: 30px;
     height: auto;
     cursor: pointer;
 }
 
-.gridContainer-diseño .footer .footerInfo {
+.gridContainer-diseño footer .footerInfo {
     margin-left: 30px
-}
-
+} */
 
 /* DECORACION */
 .gridContainer-deco {
     display: grid;
+    grid-template-columns: 500px auto;
+    grid-template-rows: 80px 350px auto 100px;
+}
+
+.gridContainer-deco .gridNav{
+    grid-column: 1/3;
+}
+
+.gridContainer-deco .gridPortada{
+    grid-column: 1/3;
+}
+
+.gridContainer-deco .gridMain{
+    background-color: #F2F1F0;
+    grid-column: 1/3;
+    margin-top: 50px;
+}
+
+.gridContainer-deco .gridFooter{
+    grid-column: 1/3;
+}
+
+.imagenesCatalogo {
+    width: 350px;
+    height: auto;
+} 
+
+.carousel-inner {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.carousel-inner .carousel-item img {
+    border-radius: 5px;
+}
+
+.imagenesCatalogo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.catalogoDescripcion {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #6B7060;
+    color: #F2F1F0;
+    cursor: pointer;
+}
+
+.catalogoDescripcion:hover {
+    background-color: #9DA695;
+}
+
+ .gridContainer-deco footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-family: 'Thasadith', sans-serif;
+    background: white;
+    width: 100%;
+}
+
+.gridContainer-deco footer .footerImg {
+padding: 20px;
+}
+
+.gridContainer-deco footer .footerImg img {
+width: 20px;
+height: auto;
+cursor: pointer;
+}
+
+.gridContainer-deco footer .footerInfo {
+margin-left: 30px
+}
+/* .gridContainer-deco {
+    display: grid;
     grid-template-columns: 300px auto;
-    grid-template-rows: 100px;
+    grid-template-rows: auto 100px;
 }
 
 .gridContainer-deco .main {
-    grid-column: 1/3;
+    grid-column: 1/4;
     background-color:#F2F1F0;
 }
 
@@ -421,7 +881,7 @@ a:hover {
     background-color: #9DA695;
 }
 
- .gridContainer-deco .footer {
+ .gridContainer-deco footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -433,22 +893,85 @@ a:hover {
     width: 100%;
 }
 
-.gridContainer-deco .footer .footerImg {
+.gridContainer-deco footer .footerImg {
 padding: 20px;
 }
 
-.gridContainer-deco .footer .footerImg img {
+.gridContainer-deco footer .footerImg img {
 width: 20px;
 height: auto;
 cursor: pointer;
 }
 
-.gridContainer-deco .footer .footerInfo {
+.gridContainer-deco footer .footerInfo {
 margin-left: 30px
 }
+ */
+
 
 /* CONTACTO */
- .gridContainer-contacto {
+.gridContainer-contacto {
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-template-rows: 80px 350px auto 100px;
+}
+
+.gridContainer-contacto .gridNav{
+    grid-column: 1/3;
+}
+
+.gridContainer-contacto .gridPortada{
+    grid-column: 1/3;
+}
+
+.gridContainer-contacto .gridMain{
+    background-color: #F2F1F0;
+    grid-column: 1/3;
+}
+
+.gridContainer-contacto .gridFooter{
+    grid-column: 1/3;
+}
+
+ .col-sm-12 {
+    margin-top: 20px;
+}
+
+.gridMain .contacto {
+    font-family: 'Bebas Neue', cursive;
+    color:#9DA695;
+    text-align: center;
+    font-size: 1.7cm;
+    margin-top: 50px; 
+    height: 100px;
+}
+
+.gridContainer-contacto footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-family: 'Thasadith', sans-serif;
+    background: white;
+    width: 100%;
+}
+
+.gridContainer-contacto footer .footerImg {
+    padding: 20px;
+}
+
+.gridContainer-contacto footer .footerImg img {
+   width: 30px;
+   height: auto;
+   cursor: pointer;
+}
+
+.gridContainer-contacto footer .footerInfo {
+   margin-left: 30px
+}
+ 
+/*  .gridContainer-contacto {
     display: grid; 
     grid-template-columns: 300px auto;
     grid-template-rows: 100px auto 100px;
@@ -458,7 +981,7 @@ margin-left: 30px
     grid-column: 1/3;
 }
 
-.gridContainer-contacto .main {
+.gridContainer-contacto main {
     grid-column: 1/3;
 }
 
@@ -475,7 +998,7 @@ margin-left: 30px
     height: 100px;
 }
 
-.footer {
+footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -487,20 +1010,19 @@ margin-left: 30px
     width: 100%;
 }
 
-.footer .footerImg {
+footer .footerImg {
     padding: 20px;
 }
 
-.footer .footerImg img {
+footer .footerImg img {
    width: 30px;
    height: auto;
    cursor: pointer;
 }
 
-.footer .footerInfo {
+footer .footerInfo {
    margin-left: 30px
-}
-
+} */
 
 /* BOTONES y FORMULARIOS */
 .d-flex .btn {
@@ -538,24 +1060,24 @@ margin-left: 30px
 } 
 
 
-
 /* RESPONSIVE */
 @media (max-width: 768px) {
 
     /* INDEX */
     .gridContainer{
         display: grid;
-        grid-template-columns: 256px 256px 256px;
-        grid-template-rows: 300px auto 100px;
+        grid-template-columns: 500px auto;
+        grid-template-rows: auto 250px auto 100px;
     }
-
-    .gridContainer .presentacion .flex-presentacion {
+    
+    .gridContainer main .presentacion .flex-presentacion {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-direction: row;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 20px;
     }
     
     .gridContainer .presentacion .flex-presentacion .imgItem {
@@ -568,381 +1090,189 @@ margin-left: 30px
         width: 60px;
         height: auto;
     }
-
-    .gridContainer .main .cuerpo {
+   
+    .gridContainer main .cuerpo {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-        margin-top: 20px;
+        gap: 20px;
+        margin-top: 50px;
+        background: linear-gradient(to bottom, #BAC9A5, #BBBCB7);
+        padding: 20px;
     }
-    
-    .gridContainer .main .cuerpo .itemP{
-        width: 450px;
-        height: 450px;
-    }
-    
-    .gridContainer .main .cuerpo .itemP p {
-        max-width: 100%;
-        font-size: 1.2rem;
-        letter-spacing: 0.5px;
-        text-align: justify;
-        margin-top: 10px;
-        padding: 10px;
-    }
-    
-    .gridContainer .main .cuerpo .itemP img {
-        max-width: 100%;
-        margin-top: 30px;
-        padding: 0px;
-    }
-
 
     /* ARQUITECTURA */
-    .gridContainer-arqui {
+
+    .gridContainer-arqui{
         display: grid;
-        grid-template-columns: 300px 468px;
-        grid-template-rows: 850px auto 100px;
+        grid-template-columns: 500px auto;
+        grid-template-rows: auto 250px auto 100px;
     }
-
-    .arquitectura {
-        margin-top: 10px;
-        margin-bottom: 10px;
+    
+    .gridContainer-arqui .presentacion {
+        background-color: #F2F1F0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
     }
-
+    
     .ideasArqui {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
         gap: 10px;
         margin-bottom: 50px;
-        margin-top: 10px;
     }
-    
-    .container {
-        margin-top: 30px;
-    }
-
 
     /* DISEÑO */
     .gridContainer-diseño {
         display: grid;
-        grid-template-columns: 256px 256px 256px;
-        grid-template-rows: auto 100px;
-    }
-
-    .presentacion {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: center;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        margin-left: 0%;
-        max-width: 768px;
-    }
-
-    .jardines {
-        font-family: 'Bebas Neue', cursive;
-        text-align: center;
-        font-size: 4rem;
-        margin-top: 30px; 
-        height: 100px;
-    }
-
-    .ideasJardines {
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       align-items: center;
-       justify-content: center;
-       gap: 10px;
-       margin-bottom: 10px;
-    }
-
-   .ideasJardines .itemIdeas h1 {
-      font-family: 'Bebas Neue', cursive;
-      text-align: left;
-      font-size: 2.5rem;
-      max-width: 250px;
-    }
-
-   .portfolio {
-      align-items: center;
-      margin-top: 60px;
-      font-family: 'Bebas Neue', cursive;
-      padding: 20px;
-      font-size: 2rem;
+        grid-template-columns: 500px auto;
+        grid-template-rows: auto 250px auto 100px;
     }
     
+    .ideasJardines {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .portfolio {
+        align-items: center;
+        margin-top: 80px;
+        font-family: 'Bebas Neue', cursive;
+        background-color: #454A55;
+        color: white;
+        padding: 30px;
+        font-size: 3rem;
+    }
+    
+
     /* DECORACION */
+
     .gridContainer-deco {
         display: grid;
-        grid-template-columns: 300px auto;
-        grid-template-rows: 100px;
+        grid-template-columns: 500px auto;
+        grid-template-rows: auto 250px auto 100px;
+    }
+
+    .gridContainer-deco .gridMain{
+        margin-top: 10px;
     }
 
     /* CONTACTO */
-   .gridContainer-contacto {
-        display: grid;
-        grid-template-columns: 384px 384px;
-        grid-template-rows: 100px auto 100px;
+    
+    .gridContainer-contacto {
+       display: grid;
+       grid-template-columns: 500px auto;
+       grid-template-rows: auto 250px auto 100px;
+    }
+
+    .col-sm-12 {
+       margin-top: 20px;
+    }
+
+    .contacto {
+       font-family: 'Bebas Neue', cursive;
+       color:#9DA695;
+       text-align: center;
+       font-size: 1.7cm;
+       margin-top: 50px; 
+       height: 100px;
     } 
-
-    .gridContacto {
-        grid-column: 1/3;
-    }
-
-    .gridContainer-contacto .footer {
-        grid-column: 1/3;
-    }
 }
 
 @media (max-width: 576px){
 
      /* INDEX */
-     .gridContainer {
+     .gridContainer{
         display: grid;
-        grid-template-columns: 192px 192px 192px;
-        grid-template-rows: 500px auto 150px;
+        grid-template-columns: 500px auto;
+        grid-template-rows: auto 200px auto 150px;
     }
-
+    
     .gridContainer .presentacion .flex-presentacion {
         display: flex;
         justify-content: space-evenly;
-        align-items: left;
-        flex-direction: row;
         flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 10px;
     }
     
-    .gridContainer .presentacion .flex-presentacion .imgItem{
-        width: 200px;
-        height: 200px;
-        text-align: center;
-        box-shadow: 2px 2px 5px #999;
-    }
-    
-    .gridContainer .presentacion .flex-presentacion .imgItem img {
-        width: 50px;
-        height: auto;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        opacity: 0.5;
-    }
-    
-    .gridContainer .presentacion .flex-presentacion .imgItem h1 {
-        font-family: 'Bebas Neue', cursive;
-        text-align: center;
-        margin-left: -5px;
-    }
-    
-    .gridContainer .presentacion .flex-presentacion .imgItem p {
-        font-family: 'Thasadith', sans-serif;
-        margin-top: 0px;
-    }
-
-    .gridContainer .main .cuerpo {
+    .gridContainer footer {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        margin-top: 0;
-        gap: 50px;
+        background-color: white;
+        font-family: 'Thasadith', sans-serif;
+        width: 100%;
     }
     
-    .gridContainer .main .cuerpo .itemP {
-        width: 400px;
-        height: 400px;
-    }
-    
-    .gridContainer .main .cuerpo .itemP p {
-        margin-top: 10px;
-        padding: 5px;
-    }
-    
-    .gridContainer .main .cuerpo .itemP img {
-        max-width: 100%;
-        margin-top: 30px;
-        padding: 2px;
-    }
-
-    .gridContainer .footer {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    
-    .gridContainer .footer .footerImg img {
-        width: 20px;
-    }
-    
-    .gridContainer .footer .footerInfo {
-        text-align: center;
-    }
    
     /* ARQUI */
-    .gridContainer-arqui {
+    .gridContainer-arqui{
         display: grid;
-        grid-template-columns: 300px 276px;
-        grid-template-rows: 800px auto 150px;
+        grid-template-columns: 500px auto;
+        grid-template-rows: auto 200px auto 100px;
     }
-
-    .gridContainer-arqui .main {
-        grid-column: 1/3;
+    
+    .gridContainer-arqui .presentacion {
+        background-color: #F2F1F0;
         display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        flex-direction: column;
         align-items: center;
-    }
-
-    .ideasArqui {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        margin-bottom: 30px;
-        flex-wrap: wrap;
-        max-width: 576px;
-    }
-
-    .ideasArqui .itemIdeas {
-        max-width: 576px;
-    }
-    
-    .ideasArqui .itemIdeas h1 {
-        max-width: 220px;
-    }
-    
-    .ideasArqui .itemIdeas p {
-        max-width: 200px;
-        text-align: justify;
-    }
-    
-    .ideasArqui .itemIdeas img {
-        max-width: 400px;
-        height: auto;
-    } 
-
-    .gridContainer-arqui .footer .footerImg img {
-        width: 18px;
-    }
-
-    .gridContainer-arqui .footer {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
         justify-content: space-evenly;
     }
     
-    .gridContainer-arqui .footer .footerImg img {
-        width: 20px;
-    }
-    
-    .gridContainer-arqui .footer .footerInfo {
-       text-align: center;
-    }
-
     
     /* DISEÑO */
     .gridContainer-diseño {
         display: grid;
-        grid-template-columns: 192px 192px 192px;
-        grid-template-rows: auto 150px;
+        grid-template-columns: 500px auto;
+        grid-template-rows: auto 200px auto 100px;
     }
     
-    .gridContainer-diseño .main{
-        grid-column: 1/4;
-        max-width: 576px;
-    }
-
-    .jardines {
-        font-family: 'Bebas Neue', cursive;
-        text-align: center;
-        font-size: 4rem;
-        margin-top: 20px; 
-        height: 100px;
-    }
     
     .ideasJardines {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        flex-wrap: wrap;
         gap: 20px;
         margin-bottom: 10px;
-        max-width: 576px;
-    }
-    
-    .ideasJardines .itemIdeas h1 {
-        font-family: 'Bebas Neue', cursive;
-        text-align: left;
-        font-size: 2.5rem;
-        max-width: 250px;
     }
     
     .portfolio {
-        margin-top: 40px;
-    }
-
-    .gridContainer-diseño .footer {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        margin-top: 50px;
     }
     
-    .gridContainer-diseño .footer .footerImg img {
-    width: 20px;
-    }
-    
-    .gridContainer-diseño .footer .footerInfo {
-    text-align: center;
-    }
-
     /* DECORACION */
     .gridContainer-deco {
         display: grid;
-        grid-template-columns: 300px 180px;
-        grid-template-rows: 150px;
+        grid-template-columns: 500px auto;
+        grid-template-rows: auto 200px auto 100px;
     }
 
-     .gridContainer-deco .footer .footerImg img {
-        width: 18px;
-    }
-
-    .gridContainer-deco .footer {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    
-    .gridContainer-deco .footer .footerImg img {
-        width: 20px;
-    }
-    
-    .gridContainer-deco .footer .footerInfo {
-        text-align: center;
+    .gridContainer-deco .gridMain{
+        margin-top: 10px;
     }
 
     /* CONTACTO */
-    .gridContainer-contacto {
-        display: grid;
-        grid-template-columns: 288px 288px;
-        grid-template-rows: 100px auto 150px;
-    }
-
-    .gridContacto {
-        grid-column: 1/3;
+   .gridContainer-contacto {
+       display: grid;
+       grid-template-columns: 500px auto;
+       grid-template-rows: auto 200px auto 100px;
     }
 }
