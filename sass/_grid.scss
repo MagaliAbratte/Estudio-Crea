@@ -1,0 +1,87 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    grid-template-rows: 400px auto;
+    background-color: $bgColor;
+
+    & .presentacion{
+        grid-column: 1/4;
+
+        .flex-presentacion{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 50px;
+
+            .imgItem{
+                width: 300px;
+                height: 300px;
+                text-align: center;
+                box-shadow: 2px 2px 5px #999;
+                transition: all .5s;
+                background-color: white;
+
+                &:hover{
+                    width: 320px;
+                    height: 320px;
+                    background-color:#D1C2A5;
+                }
+
+                img{
+                    width: 70px;
+                    height: auto;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    opacity: 0.5;
+                }
+
+                h1{
+                    font-family: $fontEncabezados;
+                    color: $colorEncabezados;
+                }
+
+                p{
+                    font-family: $fontTexto;
+                    color:#7C7445;
+                    margin-top: 20px;
+                }
+            }
+        } 
+    } 
+    & .cuerpoIndex{
+        grid-column: 1/4;
+
+        .cuerpo{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 50px;
+            background: linear-gradient(to bottom, #BAC9A5, #BBBCB7);
+            padding: 20px;
+
+            .itemP{
+                width: 450px;
+                height: 450px;
+
+                p{
+                    max-width: 100%;
+                    font-family: $fontTexto;
+                    font-size: 1.5rem;
+                    letter-spacing: 1px;
+                    text-align: justify;
+                    color:$bgColor;
+                    margin-top: 10px;
+                }
+
+                img{
+                    max-width: 100%;
+                    border: 1px solid #ddd;
+                    border-radius: 4px;
+                    box-shadow: 2px 2px 5px #999
+                }
+            }
+        }
+    }
+}
