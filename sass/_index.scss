@@ -1,3 +1,4 @@
+
 .gridContainer{
     display: grid;
     grid-template-columns: 300px auto 300px;
@@ -83,5 +84,29 @@
                 }
             }
         }
+    }
+}
+
+.footerIndex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-family: $fontTexto;
+    width: 100%;
+
+    .footerImg{
+        padding: 20px;
+
+        img{
+            width: 30px;
+            height: auto;
+            cursor: pointer;
+        }
+    }
+
+    .footerInfo{
+        margin-left: 30px
     }
 }

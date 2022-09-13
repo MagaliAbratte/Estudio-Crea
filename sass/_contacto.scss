@@ -1,0 +1,47 @@
+.gridContainer-contacto {
+    display: grid; 
+    grid-template-columns: 300px auto;
+    grid-template-rows: 100px auto;
+
+    .gridContacto {
+        grid-column: 1/3;
+
+        .contacto {
+            font-family: 'Bebas Neue', cursive;
+            color:#9DA695;
+            text-align: center;
+            font-size: 1.7cm;
+            margin-top: 20px; 
+            height: 100px;
+        }
+    }
+
+    section {
+        grid-column: 1/3;
+    }
+}
+
+.footerContacto {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-family: 'Thasadith', sans-serif;
+    background: white;
+    width: 100%;
+
+    .footerImg {
+        padding: 20px;
+
+        img {
+            width: 30px;
+            height: auto;
+            cursor: pointer;
+         }
+    }
+    .footerInfo {
+        margin-left: 30px
+     } 
+     
+}

@@ -1,0 +1,67 @@
+.gridContainer-deco {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: auto;
+
+    .main {
+        grid-column: 1/4;
+        background-color:#F2F1F0;
+
+        .imagenesCatalogo {
+            width: 350px;
+            height: auto;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .carousel-inner {
+            margin-top: 40px;
+            margin-bottom: 10px;
+
+            .carousel-item img {
+                border-radius: 5px;
+            }
+            
+        }
+
+        .catalogoDescripcion {
+            font-family: 'Thasadith', sans-serif;
+            font-size: 1.5rem;
+            text-align: center;
+            background-color: #6B7060;
+            color: #F2F1F0;
+            cursor: pointer;
+        
+            &:hover {
+                background-color: #9DA695;
+            }
+        }
+    }
+}
+
+
+.footerDeco {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-family: 'Thasadith', sans-serif;
+    background: white;
+    width: 100%;
+
+    .footerImg {
+        padding: 20px;
+
+        img {
+            width: 20px;
+            height: auto;
+            cursor: pointer;
+         }
+    }
+
+    .footerInfo {
+        margin-left: 30px
+     }
+      
+}

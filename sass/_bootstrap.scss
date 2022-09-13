@@ -19,8 +19,6 @@
     font-family: $fontTexto;
 }
 
-/* BOTONES */
-
 .d-flex{
     .btn{
         background-color: #9DA695;
@@ -47,3 +45,10 @@
         border-color: #D9C6B0;
     } 
 } 
+
+.form-floating {
+    background-color: #454A55;
+    border-radius: 10px;
+    padding: 10px;
+}
+

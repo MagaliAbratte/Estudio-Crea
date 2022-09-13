@@ -156,23 +156,19 @@ a:hover {
 .gridContainer-arqui .presentacion {
     grid-column: 1/4;
     background-color: #F2F1F0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
 } 
 
 .ideasArqui {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly; 
-    gap: 10px;
-    margin-top: 10px;
+    justify-content: center;
+    gap: 20px;
     margin-bottom: 10px;
+    margin-top: 50px;
 }
 
-.ideasArqui .itemIdeas h1 {
+.ideasArqui .itemA h1 {
     font-family: 'Bebas Neue', cursive;
     color: #454A55;
     text-align: left;
@@ -180,7 +176,7 @@ a:hover {
     max-width: 250px;
 }
 
-.ideasArqui .itemIdeas p {
+.ideasArqui .itemA p {
     font-family: 'Thasadith', sans-serif;
     font-size: 1.2rem;
     text-align: left;
@@ -188,7 +184,7 @@ a:hover {
     max-width: 250px;
 }
 
-.ideasArqui .itemIdeas h2 {
+.ideasArqui .itemA h2 {
     font-family: 'Thasadith', sans-serif;
     text-align: center;
     font-size: 1.5rem;
@@ -201,12 +197,12 @@ a:hover {
     box-shadow: 2px 2px 5px #999;
 }
 
-.ideasArqui .itemIdeas h2:hover {
+.ideasArqui .itemA h2:hover {
     transform: translateY(7px);
     transition-duration: 0.5s;
 }
 
-.ideasArqui .itemIdeas img {
+.ideasArqui .itemA img {
     max-width: 500px;
     height: auto;
     opacity: 0.5; 
@@ -289,7 +285,7 @@ a:hover {
     margin-top: 50px;
 }
 
-.ideasJardines .itemIdeas h1 {
+.ideasJardines .itemJ h1 {
     font-family: 'Bebas Neue', cursive;
     color: #6B7060;
     text-align: left;
@@ -297,7 +293,7 @@ a:hover {
     max-width: 250px;
 }
 
-.ideasJardines .itemIdeas h2 {
+.ideasJardines .itemJ h2 {
     font-family: 'Thasadith', sans-serif;
     text-align: center;
     font-size: 1.5rem;
@@ -310,12 +306,12 @@ a:hover {
     box-shadow: 2px 2px 5px #999;
 }
 
-.ideasJardines .itemIdeas h2:hover {
+.ideasJardines .itemJ h2:hover {
     transform: translateY(7px);
     transition-duration: 0.5s;
 }
 
-.ideasJardines .itemIdeas img {
+.ideasJardines .itemJ img {
     max-width: 500px;
     height: auto;
     opacity: 0.5; 
@@ -513,6 +509,8 @@ a:hover {
 } 
 
 
+
+
 /* RESPONSIVE */
 @media (max-width: 912px) {
 
@@ -594,13 +592,13 @@ a:hover {
         flex-wrap: wrap;
     }
     
-    .ideasJardines .itemIdeas h1 {
+    .ideasJardines .itemJ h1 {
         text-align: left;
         font-size: 2.5rem;
         max-width: 200px;
     }
     
-    .ideasJardines .itemIdeas h2 {
+    .ideasJardines .itemJ h2 {
         text-align: center;
         font-size: 1.5rem;
         padding: 10px;
@@ -609,7 +607,7 @@ a:hover {
         margin-bottom: 50px;
     }
     
-    .ideasJardines .itemIdeas img {
+    .ideasJardines .itemJ img {
         max-width: 500px;
         height: auto;
     }
@@ -618,8 +616,6 @@ a:hover {
         margin-top: 80px;
     }
 }
-
-
 
 
 @media (max-width: 768px) {
@@ -688,10 +684,6 @@ a:hover {
     
     .gridContainer-arqui .presentacion {
         grid-column: 1/4;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
     } 
     
     .ideasArqui {
@@ -705,18 +697,18 @@ a:hover {
         flex-wrap: wrap;
     }
     
-    .ideasArqui .itemIdeas h1 {
+    .ideasArqui .itemA h1 {
         text-align: left;
         font-size: 1.8rem;
         max-width: 200px;
     }
     
-    .ideasArqui .itemIdeas p {
+    .ideasArqui .itemA p {
         text-align: left;
         max-width: 200px;
     }
     
-    .ideasArqui .itemIdeas h2 {
+    .ideasArqui .itemA h2 {
         text-align: center;
         font-size: 1.5rem;
         padding: 10px;
@@ -725,7 +717,7 @@ a:hover {
         margin-bottom: 50px;
     }
     
-    .ideasArqui .itemIdeas img {
+    .ideasArqui .itemA img {
         max-width: 500px;
         height: auto;
     }
@@ -748,13 +740,13 @@ a:hover {
         flex-wrap: wrap;
     }
     
-    .ideasJardines .itemIdeas h1 {
+    .ideasJardines .itemJ h1 {
         text-align: left;
         font-size: 2.5rem;
         max-width: 200px;
     }
     
-    .ideasJardines .itemIdeas h2 {
+    .ideasJardines .itemJ h2 {
         text-align: center;
         font-size: 1.5rem;
         padding: 10px;
@@ -764,7 +756,7 @@ a:hover {
         box-shadow: 2px 2px 5px #999;
     }
     
-    .ideasJardines .itemIdeas img {
+    .ideasJardines .itemJ img {
         max-width: 500px;
         height: auto;
         opacity: 0.5; 
@@ -956,10 +948,6 @@ a:hover {
     
     .gridContainer-arqui .presentacion {
         grid-column: 1/4;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
     } 
     
     .ideasArqui {
@@ -972,19 +960,19 @@ a:hover {
         margin-bottom: 10px;
     }
     
-    .ideasArqui .itemIdeas h1 {
+    .ideasArqui .itemA h1 {
         text-align: left;
         font-size: 1.8rem;
         max-width: 150px;
     }
     
-    .ideasArqui .itemIdeas p {
+    .ideasArqui .itemA p {
         font-size: 1.2rem;
         text-align: left;
         max-width: 150px;
     }
     
-    .ideasArqui .itemIdeas h2 {
+    .ideasArqui .itemA h2 {
         text-align: center;
         font-size: 1.5rem;
         padding: 10px;
@@ -993,7 +981,7 @@ a:hover {
         margin-bottom: 50px;
     }
     
-    .ideasArqui .itemIdeas img {
+    .ideasArqui .itemA img {
         max-width: 300px;
         height: auto;
         opacity: 0.5; 
@@ -1047,13 +1035,13 @@ a:hover {
         margin-top: 50px;
     }
     
-    .ideasJardines .itemIdeas h1 {
+    .ideasJardines .itemJ h1 {
         text-align: left;
         font-size: 2.5rem;
         max-width: 250px;
     }
     
-    .ideasJardines .itemIdeas h2 {
+    .ideasJardines .itemJ h2 {
         text-align: center;
         padding: 10px;
         margin-top: 50px;
@@ -1061,7 +1049,7 @@ a:hover {
         margin-bottom: 50px;
     }
 
-    .ideasJardines .itemIdeas img {
+    .ideasJardines .itemJ img {
         max-width: 300px;
         height: auto;
         opacity: 0.5; 
@@ -1161,4 +1149,7 @@ a:hover {
        margin-left: 0px
     } 
 }
+
+
+
 
