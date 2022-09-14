@@ -11,9 +11,17 @@
                 margin-top: 50px;
                 flex-wrap: wrap;
 
-                .imgItem {
+                .imgItemEspacio {
                     width: 250px;
                     height: 250px;
+                }
+
+                .imgItemArmonia{
+                    @extend .imgItemEspacio;
+                }
+
+                .imgItemCalidez{
+                    @extend .imgItemEspacio;
                 }
             }
         }

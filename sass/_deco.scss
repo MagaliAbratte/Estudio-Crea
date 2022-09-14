@@ -39,16 +39,8 @@
     }
 }
 
-
 .footerDeco {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    font-family: 'Thasadith', sans-serif;
-    background: white;
-    width: 100%;
+    @include footer;
 
     .footerImg {
         padding: 20px;

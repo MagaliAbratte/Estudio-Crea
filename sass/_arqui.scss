@@ -1,3 +1,9 @@
+$itemIdeas: (
+    itemP: #9DA695,
+    itemC: #D1C2A5,
+    itemM: #6B7060,
+);
+
 .gridContainer-arqui {
     display: grid;
     grid-template-columns: 300px auto;
@@ -5,7 +11,7 @@
 
     .presentacion {
         grid-column: 1/4;
-        background-color: #F2F1F0;
+        background-color: $bgColor;
 
         .ideasArqui {
             display: flex;
@@ -38,7 +44,7 @@
                     text-align: center;
                     font-size: 1.5rem;
                     color: white;
-                    background-color: #D9C6B0;
+                    background-color: map-get($map: $itemIdeas, $key: itemC);
                     padding: 10px;
                     margin-top: 50px;
                     align-items: center;
@@ -62,7 +68,7 @@
     }
     section {
         grid-column: 1/4;
-        background-color: #F2F1F0;
+        background-color: $bgColor;
     }
 }
 
@@ -78,7 +84,7 @@
     font-size: 1.5rem;
     text-align: center;
     background-color: #6B7060;
-    color: #F2F1F0;
+    color: $bgColor;
     cursor: pointer;
 
     &:hover{
@@ -86,27 +92,30 @@
     }
 }
 
-.footerArqui {
+@mixin footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    font-family: 'Thasadith', sans-serif;
-    background: white;
+    font-family: "Thasadith", sans-serif;
     width: 100%;
+}
 
-    .footerImg {
+.footerArqui {
+    @include footer;
+
+    .footerImg{
         padding: 20px;
 
-        img {
+        img{
             width: 30px;
             height: auto;
             cursor: pointer;
         }
     }
 
-    .footerInfo {
+    .footerInfo{
         margin-left: 30px
     }
 }

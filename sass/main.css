@@ -92,7 +92,7 @@
   text-align: center;
   font-size: 1.5rem;
   color: white;
-  background-color: #D9C6B0;
+  background-color: #D1C2A5;
   padding: 10px;
   margin-top: 50px;
   align-items: center;
@@ -140,7 +140,6 @@
   align-items: center;
   background-color: white;
   font-family: "Thasadith", sans-serif;
-  background: white;
   width: 100%;
 }
 .footerArqui .footerImg {
@@ -171,7 +170,7 @@
   flex-direction: row;
   margin-top: 50px;
 }
-.gridContainer .presentacion .flex-presentacion .imgItem {
+.gridContainer .presentacion .flex-presentacion .imgItemEspacio, .gridContainer .presentacion .flex-presentacion .imgItemCalidez, .gridContainer .presentacion .flex-presentacion .imgItemArmonia {
   width: 300px;
   height: 300px;
   text-align: center;
@@ -179,23 +178,23 @@
   transition: all 0.5s;
   background-color: white;
 }
-.gridContainer .presentacion .flex-presentacion .imgItem:hover {
+.gridContainer .presentacion .flex-presentacion .imgItemEspacio:hover, .gridContainer .presentacion .flex-presentacion .imgItemCalidez:hover, .gridContainer .presentacion .flex-presentacion .imgItemArmonia:hover {
   width: 320px;
   height: 320px;
   background-color: #D1C2A5;
 }
-.gridContainer .presentacion .flex-presentacion .imgItem img {
+.gridContainer .presentacion .flex-presentacion .imgItemEspacio img, .gridContainer .presentacion .flex-presentacion .imgItemCalidez img, .gridContainer .presentacion .flex-presentacion .imgItemArmonia img {
   width: 70px;
   height: auto;
   margin-top: 15px;
   margin-bottom: 15px;
   opacity: 0.5;
 }
-.gridContainer .presentacion .flex-presentacion .imgItem h1 {
+.gridContainer .presentacion .flex-presentacion .imgItemEspacio h1, .gridContainer .presentacion .flex-presentacion .imgItemCalidez h1, .gridContainer .presentacion .flex-presentacion .imgItemArmonia h1 {
   font-family: "Bebas Neue", cursive;
   color: #9B8A6E;
 }
-.gridContainer .presentacion .flex-presentacion .imgItem p {
+.gridContainer .presentacion .flex-presentacion .imgItemEspacio p, .gridContainer .presentacion .flex-presentacion .imgItemCalidez p, .gridContainer .presentacion .flex-presentacion .imgItemArmonia p {
   font-family: "Thasadith", sans-serif;
   color: #7C7445;
   margin-top: 20px;
@@ -253,6 +252,18 @@
   margin-left: 30px;
 }
 
+.cartel-itemP {
+  background-color: #9DA695;
+}
+
+.cartel-itemC {
+  background-color: #D1C2A5;
+}
+
+.cartel-itemM {
+  background-color: #6B7060;
+}
+
 .gridContainer-diseño {
   display: grid;
   grid-template-columns: 300px auto;
@@ -278,19 +289,48 @@
   font-size: 2.5rem;
   max-width: 250px;
 }
-.gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ h2 {
+.gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ .cartel-itemP {
   font-family: "Thasadith", sans-serif;
   text-align: center;
   font-size: 1.5rem;
   color: white;
-  background-color: #D9C6B0;
   padding: 10px;
   margin-top: 50px;
   align-items: center;
   margin-bottom: 50px;
   box-shadow: 2px 2px 5px #999;
 }
-.gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ h2:hover {
+.gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ .cartel-itemP:hover {
+  transform: translateY(7px);
+  transition-duration: 0.5s;
+}
+.gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ .cartel-itemC {
+  font-family: "Thasadith", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  padding: 10px;
+  margin-top: 50px;
+  align-items: center;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 5px #999;
+}
+.gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ .cartel-itemC:hover {
+  transform: translateY(7px);
+  transition-duration: 0.5s;
+}
+.gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ .cartel-itemM {
+  font-family: "Thasadith", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  padding: 10px;
+  margin-top: 50px;
+  align-items: center;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 5px #999;
+}
+.gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ .cartel-itemM:hover {
   transform: translateY(7px);
   transition-duration: 0.5s;
 }
@@ -320,7 +360,6 @@
   align-items: center;
   background-color: white;
   font-family: "Thasadith", sans-serif;
-  background: white;
   width: 100%;
 }
 .footerDiseño .footerImg {
@@ -376,7 +415,6 @@
   align-items: center;
   background-color: white;
   font-family: "Thasadith", sans-serif;
-  background: white;
   width: 100%;
 }
 .footerDeco .footerImg {
@@ -418,7 +456,6 @@
   align-items: center;
   background-color: white;
   font-family: "Thasadith", sans-serif;
-  background: white;
   width: 100%;
 }
 .footerContacto .footerImg {
@@ -443,7 +480,7 @@
     margin-top: 50px;
     flex-wrap: wrap;
   }
-  .gridContainer .presentacion .flex-presentacion .imgItem {
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio, .gridContainer .presentacion .flex-presentacion .imgItemArmonia, .gridContainer .presentacion .flex-presentacion .imgItemCalidez {
     width: 250px;
     height: 250px;
   }

@@ -1,3 +1,15 @@
+$itemIdeas: (
+    itemP: #9DA695,
+    itemC: #D1C2A5,
+    itemM: #6B7060,
+);
+
+@each $nombre, $valor in $itemIdeas {
+    .cartel-#{$nombre}{
+        background-color: $valor;
+    }
+} 
+
 .gridContainer-diseño {
     display: grid;
     grid-template-columns: 300px auto;
@@ -25,12 +37,46 @@
                     max-width: 250px;
                 }
 
-                h2 {
+                .cartel-itemP {
                     font-family: 'Thasadith', sans-serif;
                     text-align: center;
                     font-size: 1.5rem;
                     color: white;
-                    background-color: #D9C6B0;
+                    padding: 10px;
+                    margin-top: 50px;
+                    align-items: center;
+                    margin-bottom: 50px;
+                    box-shadow: 2px 2px 5px #999;
+
+                    &:hover {
+                        transform: translateY(7px);
+                        transition-duration: 0.5s;
+                    }
+                }
+
+                .cartel-itemC {
+                    font-family: 'Thasadith', sans-serif;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    color: white;
+                    padding: 10px;
+                    margin-top: 50px;
+                    align-items: center;
+                    margin-bottom: 50px;
+                    box-shadow: 2px 2px 5px #999;
+                 
+
+                    &:hover {
+                        transform: translateY(7px);
+                        transition-duration: 0.5s;
+                    }
+                }
+
+                .cartel-itemM {
+                    font-family: 'Thasadith', sans-serif;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    color: white;
                     padding: 10px;
                     margin-top: 50px;
                     align-items: center;
@@ -71,14 +117,7 @@
 }
 
 .footerDiseño {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    font-family: 'Thasadith', sans-serif;
-    background: white;
-    width: 100%;
+    @include footer;
 
     .footerImg {
         padding: 20px;
