@@ -5,7 +5,16 @@
 
     .main {
         grid-column: 1/4;
-        background-color:#F2F1F0;
+        background-color:$bgColor;
+
+        .tituloDecoracion{
+            font-family: $fontEncabezados;
+            color:$colorEncabezados;
+            text-align: center;
+            font-size: 4.5rem;
+            margin-top: 20px; 
+            height: 100px;
+        }
 
         .imagenesCatalogo {
             width: 350px;
@@ -25,7 +34,7 @@
         }
 
         .catalogoDescripcion {
-            font-family: 'Thasadith', sans-serif;
+            font-family: $fontTexto;
             font-size: 1.5rem;
             text-align: center;
             background-color: #6B7060;

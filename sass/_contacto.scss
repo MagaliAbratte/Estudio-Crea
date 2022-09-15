@@ -7,10 +7,10 @@
         grid-column: 1/3;
 
         .contacto {
-            font-family: 'Bebas Neue', cursive;
+            font-family: $fontEncabezados;
             color:#9DA695;
             text-align: center;
-            font-size: 1.7cm;
+            font-size: 3.5rem;
             margin-top: 20px; 
             height: 100px;
         }

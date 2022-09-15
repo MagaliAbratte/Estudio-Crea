@@ -24,23 +24,23 @@ $itemIdeas: (
 
             .itemA {
                 h1 {
-                    font-family: 'Bebas Neue', cursive;
-                    color: #454A55;
+                    font-family: $fontEncabezados;
+                    color: $colorEncabezados;
                     text-align: left;
                     font-size: 1.8rem;
                     max-width: 250px;
                 }
 
                 p {
-                    font-family: 'Thasadith', sans-serif;
+                    font-family: $fontTexto;
                     font-size: 1.2rem;
                     text-align: left;
-                    color: #C7BDA5;
+                    color: $colorSubtitulos;
                     max-width: 250px;
                 }
 
                 h2 {
-                    font-family: 'Thasadith', sans-serif;
+                    font-family: $fontTexto;
                     text-align: center;
                     font-size: 1.5rem;
                     color: white;
@@ -97,7 +97,7 @@ $itemIdeas: (
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: $bgColor1;
     font-family: "Thasadith", sans-serif;
     width: 100%;
 }

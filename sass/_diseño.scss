@@ -17,7 +17,7 @@ $itemIdeas: (
 
     .cuerpoDiseño {
         grid-column: 1/4;
-        background-color: #F2F1F0;
+        background-color: $bgColor;
 
         .ideasJardines {
             display: flex;
@@ -30,7 +30,7 @@ $itemIdeas: (
 
             .itemJ{
                 h1 {
-                    font-family: 'Bebas Neue', cursive;
+                    font-family: $fontEncabezados;
                     color: #6B7060;
                     text-align: left;
                     font-size: 2.5rem;
@@ -38,7 +38,7 @@ $itemIdeas: (
                 }
 
                 .cartel-itemP {
-                    font-family: 'Thasadith', sans-serif;
+                    font-family: $fontTexto;
                     text-align: center;
                     font-size: 1.5rem;
                     color: white;
@@ -55,7 +55,7 @@ $itemIdeas: (
                 }
 
                 .cartel-itemC {
-                    font-family: 'Thasadith', sans-serif;
+                    font-family: $fontTexto;
                     text-align: center;
                     font-size: 1.5rem;
                     color: white;
@@ -73,7 +73,7 @@ $itemIdeas: (
                 }
 
                 .cartel-itemM {
-                    font-family: 'Thasadith', sans-serif;
+                    font-family: $fontTexto;
                     text-align: center;
                     font-size: 1.5rem;
                     color: white;
