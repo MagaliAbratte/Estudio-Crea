@@ -30,12 +30,14 @@
   background-color: #9DA695;
   font-family: "Thasadith", sans-serif;
 }
+.d-flex .btn:hover {
+  background-color: white;
+}
 .d-flex .form-control {
   font-family: "Thasadith", sans-serif;
   font-size: 1.5rem;
   text-align: center;
   background-color: white;
-  color: #F2F1F0;
   color: #9B8A6E;
 }
 
@@ -43,7 +45,7 @@
   background-color: #D9C6B0;
   border-color: #D9C6B0;
 }
-.btn-primary .btn-primary:hover {
+.btn-primary:hover {
   background-color: white;
   color: #D9C6B0;
   border-color: #D9C6B0;
@@ -140,15 +142,16 @@
   align-items: center;
   background-color: white;
   font-family: "Thasadith", sans-serif;
+  font-size: 1.2rem;
   width: 100%;
-}
-.footerArqui .footerImg {
-  padding: 20px;
+  padding: 10px;
 }
 .footerArqui .footerImg img {
-  width: 30px;
+  width: 50px;
   height: auto;
   cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
 }
 .footerArqui .footerInfo {
   margin-left: 30px;
@@ -263,25 +266,26 @@
   align-items: center;
   background-color: white;
   font-family: "Thasadith", sans-serif;
+  font-size: 1.2rem;
   width: 100%;
-}
-.footerIndex .footerImg {
-  padding: 20px;
+  padding: 10px;
 }
 .footerIndex .footerImg img {
-  width: 30px;
+  width: 50px;
   height: auto;
   cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
 }
 .footerIndex .footerInfo {
   margin-left: 30px;
 }
 
-.cartel-itemP {
+.cartel-itemC {
   background-color: #9DA695;
 }
 
-.cartel-itemC {
+.cartel-itemP {
   background-color: #D1C2A5;
 }
 
@@ -388,15 +392,16 @@
   align-items: center;
   background-color: white;
   font-family: "Thasadith", sans-serif;
+  font-size: 1.2rem;
   width: 100%;
-}
-.footerDiseño .footerImg {
-  padding: 20px;
+  padding: 10px;
 }
 .footerDiseño .footerImg img {
-  width: 30px;
+  width: 50px;
   height: auto;
   cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
 }
 .footerDiseño .footerInfo {
   margin-left: 30px;
@@ -450,15 +455,16 @@
   align-items: center;
   background-color: white;
   font-family: "Thasadith", sans-serif;
+  font-size: 1.2rem;
   width: 100%;
-}
-.footerDeco .footerImg {
-  padding: 20px;
+  padding: 10px;
 }
 .footerDeco .footerImg img {
-  width: 20px;
+  width: 50px;
   height: auto;
   cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
 }
 .footerDeco .footerInfo {
   margin-left: 30px;
@@ -493,15 +499,16 @@
   align-items: center;
   background-color: white;
   font-family: "Thasadith", sans-serif;
+  font-size: 1.2rem;
   width: 100%;
-}
-.footerContacto .footerImg {
-  padding: 20px;
+  padding: 10px;
 }
 .footerContacto .footerImg img {
-  width: 30px;
+  width: 50px;
   height: auto;
   cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
 }
 .footerContacto .footerInfo {
   margin-left: 30px;
@@ -731,7 +738,6 @@
     margin-top: 50px;
     align-items: center;
     margin-bottom: 50px;
-    box-shadow: 2px 2px 5px #999;
   }
   .gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ img {
     max-width: 500px;
@@ -839,7 +845,6 @@
   }
   .gridContainer .cuerpoIndex .cuerpo .itemP p {
     max-width: 100%;
-    font-family: "Thasadith", sans-serif;
     font-size: 1.2rem;
     letter-spacing: 1px;
     text-align: justify;
@@ -855,11 +860,12 @@
     align-items: center;
     width: 100%;
   }
-  .footerIndex .footerImg {
-    padding: 20px;
-  }
   .footerIndex .footerImg img {
-    width: 20px;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
   }
   .footerIndex .footerInfo {
     margin-left: 0px;
@@ -921,11 +927,12 @@
     align-items: center;
     width: 100%;
   }
-  .footerArqui .footerImg {
-    padding: 20px;
-  }
   .footerArqui .footerImg img {
-    width: 20px;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
   }
   .footerArqui .footerInfo {
     margin-left: 0px;
@@ -975,11 +982,12 @@
     align-items: center;
     width: 100%;
   }
-  .footerDiseño .footerImg {
-    padding: 20px;
-  }
   .footerDiseño .footerImg img {
-    width: 20px;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
   }
   .footerDiseño .footerInfo {
     margin-left: 0px;
@@ -998,11 +1006,12 @@
     align-items: center;
     width: 100%;
   }
-  .footerDeco .footerImg {
-    padding: 20px;
-  }
   .footerDeco .footerImg img {
-    width: 20px;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
   }
   .footerDeco .footerInfo {
     margin-left: 0px;
@@ -1035,11 +1044,11 @@
     align-items: center;
     width: 100%;
   }
-  .footerContacto .footerImg {
-    padding: 20px;
-  }
   .footerContacto .footerImg img {
-    width: 20px;
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    margin-right: 10px;
   }
   .footerContacto .footerInfo {
     margin-left: 0px;

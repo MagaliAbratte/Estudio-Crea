@@ -282,7 +282,6 @@
                         margin-top: 50px;
                         align-items: center;
                         margin-bottom: 50px;
-                        box-shadow: 2px 2px 5px #999;
                     }
                     img {
                         max-width: 500px;
@@ -303,7 +302,6 @@
     }
 
     /* DECORACION */
-
     .main{
 
         .tituloDecoracion{
@@ -420,7 +418,6 @@
 
                     p {
                         max-width: 100%;
-                        font-family: 'Thasadith', sans-serif;
                         font-size: 1.2rem;
                         letter-spacing: 1px;
                         text-align: justify;
@@ -443,10 +440,12 @@
         width: 100%;
 
         .footerImg {
-            padding: 20px;
-        
           img {
-              width: 20px;
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+            padding: 10px;
+            margin-right: 10px;
           }
         }
        .footerInfo {
@@ -520,10 +519,12 @@
     width: 100%;
 
     .footerImg {
-        padding: 20px;
-
         img {
-            width: 20px;
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+            padding: 10px;
+            margin-right: 10px;
         }
     }
 
@@ -590,10 +591,12 @@
     width: 100%;
 
     .footerImg {
-        padding: 20px;
-
         img {
-            width: 20px;
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+            padding: 10px;
+            margin-right: 10px;
         }
     }
 
@@ -625,10 +628,12 @@
     width: 100%;
 
     .footerImg {
-        padding: 20px;
-
         img {
-            width: 20px;
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+            padding: 10px;
+            margin-right: 10px;
         }
     }
 
@@ -672,10 +677,11 @@
         width: 100%;
 
         .footerImg {
-            padding: 20px;
-
             img {
-                width: 20px;
+                width: 50px;
+                height: auto;
+                padding: 10px;
+                margin-right: 10px;
              }
         }
 
@@ -683,6 +689,4 @@
             margin-left: 0px
          } 
     }
-
-
 }

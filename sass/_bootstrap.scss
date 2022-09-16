@@ -23,14 +23,17 @@
     .btn{
         background-color: #9DA695;
         font-family: $fontTexto;
+
+        &:hover{
+            background-color: white;
+        }
     }
 
     .form-control {
-        font-family: 'Thasadith', sans-serif;
+        font-family: $fontTexto;
         font-size: 1.5rem;
         text-align: center;
         background-color: $bgColor1;
-        color: #F2F1F0;
         color:#9B8A6E;
     }
 }
@@ -39,7 +42,7 @@
     background-color: #D9C6B0;
     border-color: #D9C6B0;
 
-    .btn-primary:hover {
+    &:hover {
         background-color: $bgColor1;
         color: #D9C6B0;
         border-color: #D9C6B0;
