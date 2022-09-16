@@ -14,7 +14,6 @@
             text-align: center;
             font-size: 4.5rem;
             margin-top: 20px; 
-            height: 100px;
         }
 
         h2{
@@ -42,7 +41,7 @@
                 &:hover{
                     width: 320px;
                     height: 320px;
-                    background-color:#D1C2A5;
+                    background-color: #E7F4CE;
                 }
 
                 img{
@@ -54,7 +53,7 @@
                 }
 
                 .tarjeta{
-                    font-size: 3.5rem;
+                    font-size: 3rem;
                     font-family: $fontEncabezados;
                     color: $colorEncabezados;
                     margin-bottom: 5px;
@@ -62,7 +61,7 @@
                 }
 
                 p{
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                     font-family: $fontTexto;
                     color:#7C7445;
                 }

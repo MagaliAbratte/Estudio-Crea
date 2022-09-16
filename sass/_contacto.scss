@@ -1,7 +1,8 @@
 .gridContainer-contacto {
     display: grid; 
     grid-template-columns: 300px auto;
-    grid-template-rows: 100px auto;
+    grid-template-rows: 180px auto;
+    background-color: $bgColor;
 
     .gridContacto {
         grid-column: 1/3;
@@ -10,14 +11,15 @@
             font-family: $fontEncabezados;
             color:#9DA695;
             text-align: center;
-            font-size: 3.5rem;
-            margin-top: 20px; 
+            font-size: 4.5rem;
+            margin-top: 50px; 
             height: 100px;
         }
     }
 
     section {
         grid-column: 1/3;
+        margin-bottom: 50px;
     }
 }
 

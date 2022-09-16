@@ -59,6 +59,7 @@
   display: grid;
   grid-template-columns: 300px auto;
   grid-template-rows: 500px auto;
+  background-color: #F2F1F0;
 }
 .gridContainer-arqui .presentacion {
   grid-column: 1/4;
@@ -70,14 +71,13 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 10px;
   margin-top: 50px;
 }
 .gridContainer-arqui .presentacion .ideasArqui .itemA h1 {
   font-family: "Bebas Neue", cursive;
   color: #9DA695;
   text-align: left;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   max-width: 250px;
 }
 .gridContainer-arqui .presentacion .ideasArqui .itemA p {
@@ -169,7 +169,6 @@
   text-align: center;
   font-size: 4.5rem;
   margin-top: 20px;
-  height: 100px;
 }
 .gridContainer .presentacion h2 {
   font-family: "Thasadith", sans-serif;
@@ -195,7 +194,7 @@
 .gridContainer .presentacion .flex-presentacion .imgItemEspacio:hover, .gridContainer .presentacion .flex-presentacion .imgItemCalidez:hover, .gridContainer .presentacion .flex-presentacion .imgItemArmonia:hover {
   width: 320px;
   height: 320px;
-  background-color: #D1C2A5;
+  background-color: #E7F4CE;
 }
 .gridContainer .presentacion .flex-presentacion .imgItemEspacio img, .gridContainer .presentacion .flex-presentacion .imgItemCalidez img, .gridContainer .presentacion .flex-presentacion .imgItemArmonia img {
   width: 70px;
@@ -205,14 +204,14 @@
   opacity: 0.5;
 }
 .gridContainer .presentacion .flex-presentacion .imgItemEspacio .tarjeta, .gridContainer .presentacion .flex-presentacion .imgItemCalidez .tarjeta, .gridContainer .presentacion .flex-presentacion .imgItemArmonia .tarjeta {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-family: "Bebas Neue", cursive;
   color: #9DA695;
   margin-bottom: 5px;
   padding: 0;
 }
 .gridContainer .presentacion .flex-presentacion .imgItemEspacio p, .gridContainer .presentacion .flex-presentacion .imgItemCalidez p, .gridContainer .presentacion .flex-presentacion .imgItemArmonia p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: "Thasadith", sans-serif;
   color: #7C7445;
 }
@@ -294,6 +293,7 @@
   display: grid;
   grid-template-columns: 300px auto;
   grid-template-rows: 500px auto;
+  background-color: #F2F1F0;
 }
 .gridContainer-diseño .cuerpoDiseño {
   grid-column: 1/4;
@@ -306,11 +306,11 @@
   justify-content: center;
   gap: 20px;
   margin-bottom: 10px;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ h1 {
   font-family: "Bebas Neue", cursive;
-  color: #6B7060;
+  color: #9DA695;
   text-align: left;
   font-size: 2.5rem;
   max-width: 250px;
@@ -368,10 +368,12 @@
 }
 .gridContainer-diseño .cuerpoDiseño1 {
   grid-column: 1/4;
+  background-color: #F2F1F0;
+  margin-top: 80px;
 }
 .gridContainer-diseño .cuerpoDiseño1 .portfolio {
   align-items: center;
-  margin-top: 250px;
+  margin-top: 200px;
   font-family: "Bebas Neue", cursive;
   background-color: #454A55;
   color: white;
@@ -414,8 +416,7 @@
   color: #9DA695;
   text-align: center;
   font-size: 4.5rem;
-  margin-top: 20px;
-  height: 100px;
+  margin-top: 50px;
 }
 .gridContainer-deco .main .imagenesCatalogo {
   width: 350px;
@@ -466,7 +467,8 @@
 .gridContainer-contacto {
   display: grid;
   grid-template-columns: 300px auto;
-  grid-template-rows: 100px auto;
+  grid-template-rows: 180px auto;
+  background-color: #F2F1F0;
 }
 .gridContainer-contacto .gridContacto {
   grid-column: 1/3;
@@ -475,12 +477,13 @@
   font-family: "Bebas Neue", cursive;
   color: #9DA695;
   text-align: center;
-  font-size: 3.5rem;
-  margin-top: 20px;
+  font-size: 4.5rem;
+  margin-top: 50px;
   height: 100px;
 }
 .gridContainer-contacto section {
   grid-column: 1/3;
+  margin-bottom: 50px;
 }
 
 .footerContacto {
@@ -506,6 +509,9 @@
 
 @media (max-width: 912px) {
   /* INDEX */
+  .gridContainer .presentacion .tituloPresentacion {
+    font-size: 3.5rem;
+  }
   .gridContainer .presentacion .flex-presentacion {
     display: flex;
     justify-content: space-evenly;
@@ -518,17 +524,34 @@
     width: 250px;
     height: 250px;
   }
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio:hover, .gridContainer .presentacion .flex-presentacion .imgItemArmonia:hover, .gridContainer .presentacion .flex-presentacion .imgItemCalidez:hover {
+    width: 252px;
+    height: 252px;
+  }
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio img, .gridContainer .presentacion .flex-presentacion .imgItemArmonia img, .gridContainer .presentacion .flex-presentacion .imgItemCalidez img {
+    width: 60px;
+  }
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio .tarjeta, .gridContainer .presentacion .flex-presentacion .imgItemArmonia .tarjeta, .gridContainer .presentacion .flex-presentacion .imgItemCalidez .tarjeta {
+    font-size: 2rem;
+  }
   .gridContainer .cuerpoIndex .cuerpo {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .gridContainer .cuerpoIndex .cuerpo .itemP {
-    width: 450px;
-    height: 550px;
+    width: 550px;
+    height: 500px;
+  }
+  .gridContainer .cuerpoIndex .cuerpo .itemP p {
+    font-size: 1.8rem;
+  }
+  .gridContainer .cuerpoIndex .cuerpo .itemP img {
+    max-width: 500px;
   }
   /* ARQUI */
   .gridContainer-arqui {
@@ -543,9 +566,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 10px;
-    margin-top: 10px;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
     margin-bottom: 10px;
     flex-wrap: wrap;
   }
@@ -582,8 +605,16 @@
     max-width: 500px;
     height: auto;
   }
+  .gridContainer-diseño .cuerpoDiseño1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   .gridContainer-diseño .cuerpoDiseño1 .portfolio {
     margin-top: 10px;
+  }
+  /* DECORACION */
+  .imagenesCatalogo {
+    max-width: 250px;
   }
 }
 @media (max-width: 768px) {
@@ -603,19 +634,19 @@
     flex-direction: row;
     margin-top: 50px;
   }
-  .gridContainer .presentacion .flex-presentacion .imgItem {
-    width: 250px;
-    height: 250px;
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio, .gridContainer .presentacion .flex-presentacion .imgItemArmonia, .gridContainer .presentacion .flex-presentacion .imgItemCalidez {
+    width: 230px;
+    height: 230px;
   }
-  .gridContainer .presentacion .flex-presentacion .imgItem.imgItem:hover {
-    width: 205px;
-    height: 205px;
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio:hover, .gridContainer .presentacion .flex-presentacion .imgItemArmonia:hover, .gridContainer .presentacion .flex-presentacion .imgItemCalidez:hover {
+    width: 232px;
+    height: 232px;
   }
-  .gridContainer .presentacion .flex-presentacion .imgItem img {
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio img, .gridContainer .presentacion .flex-presentacion .imgItemArmonia img, .gridContainer .presentacion .flex-presentacion .imgItemCalidez img {
     width: 50px;
-    height: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  }
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio .tarjeta, .gridContainer .presentacion .flex-presentacion .imgItemArmonia .tarjeta, .gridContainer .presentacion .flex-presentacion .imgItemCalidez .tarjeta {
+    font-size: 2rem;
   }
   .gridContainer .cuerpoIndex {
     grid-column: 1/4;
@@ -626,10 +657,10 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .gridContainer .cuerpoIndex .cuerpo .itemP {
-    width: 450px;
+    width: 550px;
     height: 500px;
   }
   /* ARQUI */
@@ -645,20 +676,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 10px;
-    margin-top: 10px;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
     margin-bottom: 10px;
     flex-wrap: wrap;
   }
   .gridContainer-arqui .presentacion .ideasArqui .itemA h1 {
     text-align: left;
-    font-size: 1.8rem;
-    max-width: 200px;
+    font-size: 2.5rem;
+    max-width: 250px;
   }
   .gridContainer-arqui .presentacion .ideasArqui .itemA p {
     text-align: left;
-    max-width: 200px;
+    max-width: 250px;
   }
   .gridContainer-arqui .presentacion .ideasArqui .itemA h2 {
     text-align: center;
@@ -691,7 +722,7 @@
   .gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ h1 {
     text-align: left;
     font-size: 2.5rem;
-    max-width: 200px;
+    max-width: 250px;
   }
   .gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ h2 {
     text-align: center;
@@ -705,37 +736,41 @@
   .gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ img {
     max-width: 500px;
     height: auto;
-    opacity: 0.5;
   }
   .gridContainer-diseño .cuerpoDiseño1 .portfolio {
     align-items: center;
-    margin-top: 80px;
+    margin-top: 50px;
     padding: 30px;
   }
   /* DECORACION */
-  .imagenesCatalogo {
+  .main .tituloDecoracion {
+    font-size: 2rem;
+  }
+  .main .imagenesCatalogo {
     max-width: 300px;
   }
   /* CONTACTO */
   .gridContainer-contacto {
     display: grid;
     grid-template-columns: 300px auto;
-    grid-template-rows: 100px auto;
+    grid-template-rows: 150px auto;
   }
   .gridContainer-contacto .gridContacto {
     grid-column: 1/3;
   }
+  .gridContainer-contacto .gridContacto .contacto {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 20px;
+  }
   .gridContainer-contacto section {
     grid-column: 1/3;
   }
-  .col-sm-12 {
+  .gridContainer-contacto section .col-sm-12 {
     margin-top: 20px;
   }
-  .contacto {
-    text-align: center;
-    font-size: 1.7cm;
-    margin-top: 20px;
-    height: 100px;
+  .gridContainer-contacto section iframe {
+    width: 600px;
   }
 }
 @media (max-width: 576px) {
@@ -748,6 +783,13 @@
   .gridContainer .presentacion {
     grid-column: 1/4;
   }
+  .gridContainer .presentacion .tituloPresentacion {
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+  .gridContainer .presentacion h2 {
+    font-size: 1.5rem;
+  }
   .gridContainer .presentacion .flex-presentacion {
     display: flex;
     flex-wrap: wrap;
@@ -757,22 +799,26 @@
     margin-top: 50px;
     gap: 10px;
   }
-  .gridContainer .presentacion .flex-presentacion .imgItem {
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio, .gridContainer .presentacion .flex-presentacion .imgItemArmonia, .gridContainer .presentacion .flex-presentacion .imgItemCalidez {
     width: 200px;
     height: 200px;
     text-align: center;
   }
-  .gridContainer .presentacion .flex-presentacion .imgItem.imgItem:hover {
-    width: 205px;
-    height: 205px;
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio:hover, .gridContainer .presentacion .flex-presentacion .imgItemArmonia:hover, .gridContainer .presentacion .flex-presentacion .imgItemCalidez:hover {
+    width: 200px;
+    height: 200px;
   }
-  .gridContainer .presentacion .flex-presentacion .imgItem img {
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio img, .gridContainer .presentacion .flex-presentacion .imgItemArmonia img, .gridContainer .presentacion .flex-presentacion .imgItemCalidez img {
     width: 50px;
     height: auto;
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  .gridContainer .presentacion .flex-presentacion .imgItem p {
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio .tarjeta, .gridContainer .presentacion .flex-presentacion .imgItemArmonia .tarjeta, .gridContainer .presentacion .flex-presentacion .imgItemCalidez .tarjeta {
+    font-size: 1.5rem;
+  }
+  .gridContainer .presentacion .flex-presentacion .imgItemEspacio p, .gridContainer .presentacion .flex-presentacion .imgItemArmonia p, .gridContainer .presentacion .flex-presentacion .imgItemCalidez p {
+    font-size: 1rem;
     margin-top: 0px;
   }
   .gridContainer .cuerpoIndex {
@@ -789,7 +835,7 @@
   }
   .gridContainer .cuerpoIndex .cuerpo .itemP {
     width: 320px;
-    height: 450px;
+    height: 420px;
   }
   .gridContainer .cuerpoIndex .cuerpo .itemP p {
     max-width: 100%;
@@ -822,7 +868,7 @@
   .gridContainer-arqui {
     display: grid;
     grid-template-columns: 300px auto;
-    grid-template-rows: 700px auto;
+    grid-template-rows: 800px auto;
   }
   .gridContainer-arqui .presentacion {
     grid-column: 1/4;
@@ -832,25 +878,25 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 0px;
+    margin-top: 50px;
     margin-bottom: 10px;
   }
   .gridContainer-arqui .presentacion .ideasArqui .itemA h1 {
-    text-align: left;
+    text-align: center;
     font-size: 1.8rem;
-    max-width: 150px;
+    max-width: 250px;
   }
   .gridContainer-arqui .presentacion .ideasArqui .itemA p {
     font-size: 1.2rem;
-    text-align: left;
-    max-width: 150px;
+    text-align: center;
+    max-width: 250px;
   }
   .gridContainer-arqui .presentacion .ideasArqui .itemA h2 {
     text-align: center;
     font-size: 1.5rem;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 10px;
     align-items: center;
     margin-bottom: 50px;
   }
@@ -863,7 +909,7 @@
     grid-column: 1/4;
   }
   .gridContainer-arqui section .card {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
     max-width: 350px;
     justify-items: center;
@@ -900,7 +946,7 @@
     margin-top: 50px;
   }
   .gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ h1 {
-    text-align: left;
+    text-align: center;
     font-size: 2.5rem;
     max-width: 250px;
   }
@@ -918,9 +964,9 @@
   }
   .gridContainer-diseño .cuerpoDiseño1 .portfolio {
     align-items: center;
-    margin-top: 50px;
-    padding: 30px;
-    font-size: 3rem;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 2.5rem;
   }
   .footerDiseño {
     display: flex;
@@ -939,8 +985,11 @@
     margin-left: 0px;
   }
   /* DECORACION */
-  .imagenesCatalogo {
-    max-width: 250px;
+  .gridContainer-deco .main .tituloDecoracion {
+    font-size: 2.5rem;
+  }
+  .gridContainer-deco .main .imagenesCatalogo {
+    max-width: 200px;
   }
   .footerDeco {
     display: flex;
@@ -969,15 +1018,14 @@
   }
   .gridContainer-contacto .gridContacto .contacto {
     text-align: center;
-    font-size: 1.7cm;
+    font-size: 3.5rem;
     margin-top: 20px;
-    height: 100px;
   }
   .gridContainer-contacto section {
     grid-column: 1/3;
   }
   .gridContainer-contacto section iframe {
-    width: 350px;
+    width: 320px;
     height: 350px;
   }
   .footerContacto {
