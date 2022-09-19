@@ -34,7 +34,7 @@ $itemIdeas: (
 
                 p {
                     font-family: $fontTexto;
-                    font-size: 1.2rem;
+                    font-size: 1.5rem;
                     text-align: left;
                     color: $colorSubtitulos;
                     max-width: 250px;
@@ -61,7 +61,7 @@ $itemIdeas: (
                 img {
                     max-width: 500px;
                     height: auto;
-                    opacity: 0.5; 
+                    opacity: 0.8; 
                     box-shadow: 2px 2px 5px #999
                 }
             }

@@ -12,7 +12,7 @@
 
 .nav-item a {
   text-decoration: none;
-  color: #9DA695;
+  color: #6B7060;
   font-family: "Bebas Neue", cursive;
   font-size: 1.2rem;
 }
@@ -77,16 +77,16 @@
 }
 .gridContainer-arqui .presentacion .ideasArqui .itemA h1 {
   font-family: "Bebas Neue", cursive;
-  color: #9DA695;
+  color: #6B7060;
   text-align: left;
   font-size: 2.5rem;
   max-width: 250px;
 }
 .gridContainer-arqui .presentacion .ideasArqui .itemA p {
   font-family: "Thasadith", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: left;
-  color: #C7BDA5;
+  color: #9DA695;
   max-width: 250px;
 }
 .gridContainer-arqui .presentacion .ideasArqui .itemA h2 {
@@ -108,7 +108,7 @@
 .gridContainer-arqui .presentacion .ideasArqui .itemA img {
   max-width: 500px;
   height: auto;
-  opacity: 0.5;
+  opacity: 0.8;
   box-shadow: 2px 2px 5px #999;
 }
 .gridContainer-arqui section {
@@ -168,7 +168,7 @@
 }
 .gridContainer .presentacion .tituloPresentacion {
   font-family: "Bebas Neue", cursive;
-  color: #9DA695;
+  color: #6B7060;
   text-align: center;
   font-size: 4.5rem;
   margin-top: 20px;
@@ -177,7 +177,7 @@
   font-family: "Thasadith", sans-serif;
   font-size: 2rem;
   text-align: center;
-  color: #C7BDA5;
+  color: #9DA695;
 }
 .gridContainer .presentacion .flex-presentacion {
   display: flex;
@@ -209,7 +209,7 @@
 .gridContainer .presentacion .flex-presentacion .imgItemEspacio .tarjeta, .gridContainer .presentacion .flex-presentacion .imgItemCalidez .tarjeta, .gridContainer .presentacion .flex-presentacion .imgItemArmonia .tarjeta {
   font-size: 3rem;
   font-family: "Bebas Neue", cursive;
-  color: #9DA695;
+  color: #6B7060;
   margin-bottom: 5px;
   padding: 0;
 }
@@ -240,7 +240,7 @@
   font-size: 2rem;
   letter-spacing: 1px;
   text-align: justify;
-  color: #F2F1F0;
+  color: #4F583D;
   margin-top: 10px;
 }
 .gridContainer .cuerpoIndex .cuerpo .itemP p {
@@ -249,7 +249,7 @@
   font-size: 1.5rem;
   letter-spacing: 1px;
   text-align: justify;
-  color: #F2F1F0;
+  color: #4F583D;
   margin-top: 10px;
 }
 .gridContainer .cuerpoIndex .cuerpo .itemP img {
@@ -314,7 +314,7 @@
 }
 .gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ h1 {
   font-family: "Bebas Neue", cursive;
-  color: #9DA695;
+  color: #6B7060;
   text-align: left;
   font-size: 2.5rem;
   max-width: 250px;
@@ -367,7 +367,7 @@
 .gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ img {
   max-width: 500px;
   height: auto;
-  opacity: 0.5;
+  opacity: 0.8;
   box-shadow: 2px 2px 5px #999;
 }
 .gridContainer-diseño .cuerpoDiseño1 {
@@ -418,7 +418,7 @@
 }
 .gridContainer-deco .main .tituloDecoracion {
   font-family: "Bebas Neue", cursive;
-  color: #9DA695;
+  color: #6B7060;
   text-align: center;
   font-size: 4.5rem;
   margin-top: 50px;
@@ -481,7 +481,7 @@
 }
 .gridContainer-contacto .gridContacto .contacto {
   font-family: "Bebas Neue", cursive;
-  color: #9DA695;
+  color: #6B7060;
   text-align: center;
   font-size: 4.5rem;
   margin-top: 50px;
@@ -909,7 +909,6 @@
   .gridContainer-arqui .presentacion .ideasArqui .itemA img {
     max-width: 300px;
     height: auto;
-    opacity: 0.5;
   }
   .gridContainer-arqui section {
     grid-column: 1/4;
@@ -967,7 +966,6 @@
   .gridContainer-diseño .cuerpoDiseño .ideasJardines .itemJ img {
     max-width: 300px;
     height: auto;
-    opacity: 0.5;
   }
   .gridContainer-diseño .cuerpoDiseño1 .portfolio {
     align-items: center;
