@@ -144,8 +144,24 @@
     .imagenesCatalogo{
         max-width: 250px;
     }
-}
 
+    .flex-decoracion{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        .deco-item{
+            width: 100px;
+            height: 200px;
+            background-color: #9DA695;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 20px;
+        }
+    }
+}
 
 @media (max-width: 768px){
     /* INDEX */
