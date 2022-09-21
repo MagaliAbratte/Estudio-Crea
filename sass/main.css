@@ -195,9 +195,7 @@
   background-color: white;
 }
 .gridContainer .presentacion .flex-presentacion .imgItemEspacio:hover, .gridContainer .presentacion .flex-presentacion .imgItemCalidez:hover, .gridContainer .presentacion .flex-presentacion .imgItemArmonia:hover {
-  width: 320px;
-  height: 320px;
-  background-color: #E7F4CE;
+  transform: scale(1.1);
 }
 .gridContainer .presentacion .flex-presentacion .imgItemEspacio img, .gridContainer .presentacion .flex-presentacion .imgItemCalidez img, .gridContainer .presentacion .flex-presentacion .imgItemArmonia img {
   width: 70px;
@@ -561,10 +559,6 @@
     width: 250px;
     height: 250px;
   }
-  .gridContainer .presentacion .flex-presentacion .imgItemEspacio:hover, .gridContainer .presentacion .flex-presentacion .imgItemArmonia:hover, .gridContainer .presentacion .flex-presentacion .imgItemCalidez:hover {
-    width: 252px;
-    height: 252px;
-  }
   .gridContainer .presentacion .flex-presentacion .imgItemEspacio img, .gridContainer .presentacion .flex-presentacion .imgItemArmonia img, .gridContainer .presentacion .flex-presentacion .imgItemCalidez img {
     width: 60px;
   }
@@ -689,10 +683,6 @@
   .gridContainer .presentacion .flex-presentacion .imgItemEspacio, .gridContainer .presentacion .flex-presentacion .imgItemArmonia, .gridContainer .presentacion .flex-presentacion .imgItemCalidez {
     width: 230px;
     height: 230px;
-  }
-  .gridContainer .presentacion .flex-presentacion .imgItemEspacio:hover, .gridContainer .presentacion .flex-presentacion .imgItemArmonia:hover, .gridContainer .presentacion .flex-presentacion .imgItemCalidez:hover {
-    width: 232px;
-    height: 232px;
   }
   .gridContainer .presentacion .flex-presentacion .imgItemEspacio img, .gridContainer .presentacion .flex-presentacion .imgItemArmonia img, .gridContainer .presentacion .flex-presentacion .imgItemCalidez img {
     width: 50px;
@@ -854,10 +844,6 @@
     width: 200px;
     height: 200px;
     text-align: center;
-  }
-  .gridContainer .presentacion .flex-presentacion .imgItemEspacio:hover, .gridContainer .presentacion .flex-presentacion .imgItemArmonia:hover, .gridContainer .presentacion .flex-presentacion .imgItemCalidez:hover {
-    width: 200px;
-    height: 200px;
   }
   .gridContainer .presentacion .flex-presentacion .imgItemEspacio img, .gridContainer .presentacion .flex-presentacion .imgItemArmonia img, .gridContainer .presentacion .flex-presentacion .imgItemCalidez img {
     width: 50px;

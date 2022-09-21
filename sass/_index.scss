@@ -39,9 +39,7 @@
                 background-color: $bgColor1;
 
                 &:hover{
-                    width: 320px;
-                    height: 320px;
-                    background-color: #E7F4CE;
+                    transform: scale(1.1);
                 }
 
                 img{
