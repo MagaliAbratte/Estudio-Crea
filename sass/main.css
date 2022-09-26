@@ -15,6 +15,7 @@
   color: #6B7060;
   font-family: "Bebas Neue", cursive;
   font-size: 1.2rem;
+  transition: all ease-out 0.2s;
 }
 .nav-item a:hover {
   transform: translateY(5px);
@@ -44,10 +45,11 @@
 .btn-primary {
   background-color: #D9C6B0;
   border-color: #D9C6B0;
+  color: #454A55;
 }
 .btn-primary:hover {
   background-color: white;
-  color: #D9C6B0;
+  color: #454A55;
   border-color: #D9C6B0;
 }
 
@@ -247,8 +249,9 @@
   font-size: 1.5rem;
   letter-spacing: 1px;
   text-align: justify;
-  color: #4F583D;
+  color: #454A55;
   margin-top: 10px;
+  text-shadow: 1px 1px 0px #f7f3f3;
 }
 .gridContainer .cuerpoIndex .cuerpo .itemP img {
   max-width: 100%;
@@ -471,6 +474,7 @@
   width: 50px;
   height: auto;
   margin-left: 43%;
+  filter: invert(1);
 }
 .gridContainer-deco .flex-decoracion .deco-item:hover {
   background-color: #6B7060;

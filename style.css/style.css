@@ -1,6 +1,9 @@
 /*COLORES: #F2F1F0, #454A55, #6B7060, #9DA695, #D1C2A5,
 /*FONTS: Bebas Neue; Thasadith; Italiana*/
 
+
+/* DISEÑO CON CSS PREVIO A APLICAR SASS AL PROYECTO */
+
 *{
     margin: 0;
     padding: 0;
